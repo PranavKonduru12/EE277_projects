@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../bd/AXI_Integration/ip/AXI_Integration_rst_ps7_0_50M_1/sim/AXI_Integration_rst_ps7_0_50M_1.vhd" \
+
+nosort
