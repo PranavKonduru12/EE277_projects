@@ -1,0 +1,15 @@
+
+*** Running vivado
+    with args -log AXI_Integration_rst_ps7_0_50M_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source AXI_Integration_rst_ps7_0_50M_1.tcl
+
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source AXI_Integration_rst_ps7_0_50M_1.tcl -notrace
+WARNING: [Vivado 12-9135] Ignoring repo path (C:/Users/Pranav C:/LocalWorkspace/EE277workspace/Lab2_2021v/Lab2_AXILiteImplement2021/Lab2_AXILiteImplement2021.runs/AXI_Integration_rst_ps7_0_50M_1_synth_1/K/AppData/Roaming/Xilinx/Vivado/2021.1/xhub/board_store/xilinx_board_store) because it contains no board files
+ERROR: [Board 49-71] The board_part definition was not found for digilentinc.com:zybo-z7-10:part0:1.0. The project's board_part property was not set, but the project's part property was set to xc7z010clg400-1. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command. Check if board.repoPaths parameter is set and the board_part is installed from the tcl app store.
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 12 19:25:10 2024...
