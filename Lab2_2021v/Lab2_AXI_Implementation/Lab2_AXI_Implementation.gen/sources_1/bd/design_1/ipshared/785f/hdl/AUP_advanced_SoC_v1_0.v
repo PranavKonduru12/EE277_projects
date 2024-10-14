@@ -51,8 +51,8 @@
 		.C_S_AXI_DATA_WIDTH(C_S00_AXI_DATA_WIDTH),
 		.C_S_AXI_ADDR_WIDTH(C_S00_AXI_ADDR_WIDTH)
 	) AUP_advanced_SoC_v1_0_S00_AXI_inst (
-	     .sw(sw),
-         .led(led),
+	    .sw(sw),
+        .led(led),
 		.S_AXI_ACLK(s00_axi_aclk),
 		.S_AXI_ARESETN(s00_axi_aresetn),
 		.S_AXI_AWADDR(s00_axi_awaddr),
