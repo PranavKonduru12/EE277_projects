@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
 -- Date        : Mon Oct 14 06:46:31 2024
 -- Host        : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               c:/LocalWorkspace/EE277workspace/Lab2_2021v/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top design_1_rst_ps7_0_50M_0 -prefix
+--               design_1_rst_ps7_0_50M_0_ design_1_rst_ps7_0_50M_0_stub.vhdl
 -- Design      : design_1_rst_ps7_0_50M_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7s100fgga676-2

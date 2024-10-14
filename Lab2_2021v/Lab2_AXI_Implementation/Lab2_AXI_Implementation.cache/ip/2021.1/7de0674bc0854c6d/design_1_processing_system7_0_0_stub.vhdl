@@ -1,13 +1,13 @@
 -- Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
--- Date        : Mon Oct 14 06:46:34 2024
+-- Date        : Mon Oct 14 08:09:57 2024
 -- Host        : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode synth_stub -rename_top decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix -prefix
 --               decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_ design_1_processing_system7_0_0_stub.vhdl
 -- Design      : design_1_processing_system7_0_0
 -- Purpose     : Stub declaration of top-level module interface
--- Device      : xc7s100fgga676-2
+-- Device      : xc7z010clg400-1
 -- --------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;

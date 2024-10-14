@@ -73,7 +73,7 @@ OPTRACE "design_1_auto_pc_0_synth_1" START { ROLLUP_AUTO }
 set_param project.vivado.isBlockSynthRun true
 set_msg_config -msgmgr_mode ooc_run
 OPTRACE "Creating in-memory project" START { }
-create_project -in_memory -part xc7s100fgga676-2
+create_project -in_memory -part xc7z010clg400-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
@@ -84,7 +84,8 @@ set_property parent.project_path C:/LocalWorkspace/EE277workspace/Lab2_2021v/Lab
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property board_part xilinx.com:sp701:part0:1.1 [current_project]
+set_property board_part_repo_paths {C:/Users/PranavK/AppData/Roaming/Xilinx/Vivado/2021.1/xhub/board_store/xilinx_board_store} [current_project]
+set_property board_part digilentinc.com:zybo-z7-10:part0:1.0 [current_project]
 set_property ip_repo_paths c:/LocalWorkspace/EE277workspace/Lab2_2021v/ip_repo/AUP_advanced_SoC_1.0 [current_project]
 update_ip_catalog
 set_property ip_output_repo c:/LocalWorkspace/EE277workspace/Lab2_2021v/Lab2_AXI_Implementation/Lab2_AXI_Implementation.cache/ip [current_project]
@@ -115,7 +116,7 @@ if { $cached_ip eq {} } {
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
-synth_design -top design_1_auto_pc_0 -part xc7s100fgga676-2 -mode out_of_context
+synth_design -top design_1_auto_pc_0 -part xc7z010clg400-1 -mode out_of_context
 OPTRACE "synth_design" END { }
 OPTRACE "Write IP Cache" START { }
 
