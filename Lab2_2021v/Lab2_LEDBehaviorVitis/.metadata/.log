@@ -3372,3 +3372,9 @@ java.lang.Error
 	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
 	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
 	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-19 13:13:52.782
+!MESSAGE XSCT Command: [disconnect tcfchan#3], Thread: Thread-158
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-19 13:13:52.824
+!MESSAGE XSCT command with result: [disconnect tcfchan#3], Result: [null, ]. Thread: Thread-158
