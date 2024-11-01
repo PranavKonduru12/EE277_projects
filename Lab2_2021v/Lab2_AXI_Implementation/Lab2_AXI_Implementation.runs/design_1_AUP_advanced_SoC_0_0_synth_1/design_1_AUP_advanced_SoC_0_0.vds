@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Oct 14 08:09:18 2024
+# Process ID: 5900
+# Current directory: C:/LocalWorkspace/EE277workspace/Lab2_2021v/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/design_1_AUP_advanced_SoC_0_0_synth_1
+# Command line: vivado.exe -log design_1_AUP_advanced_SoC_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_AUP_advanced_SoC_0_0.tcl
+# Log file: C:/LocalWorkspace/EE277workspace/Lab2_2021v/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/design_1_AUP_advanced_SoC_0_0_synth_1/design_1_AUP_advanced_SoC_0_0.vds
+# Journal file: C:/LocalWorkspace/EE277workspace/Lab2_2021v/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/design_1_AUP_advanced_SoC_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_AUP_advanced_SoC_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/LocalWorkspace/EE277workspace/Lab2_2021v/ip_repo/AUP_advanced_SoC_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/LocalWorkspace/EE277workspace/Lab2_2021v/Lab2_AXI_Implementation/Lab2_AXI_Implementation.cache/ip 
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_AUP_advanced_SoC_0_0, cache-ID = 27447bba5505d23a.
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 14 08:09:25 2024...
