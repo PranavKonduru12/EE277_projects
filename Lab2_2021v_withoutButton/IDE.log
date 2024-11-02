@@ -1,0 +1,62 @@
+15:12:33 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\LocalWorkspace\EE277workspace\Lab2_2021v_withoutButton\temp_xsdb_launch_script.tcl
+15:12:33 INFO  : Platform repository initialization has completed.
+15:12:34 INFO  : Registering command handlers for Vitis TCF services
+15:12:35 INFO  : XSCT server has started successfully.
+15:12:35 INFO  : Successfully done setting XSCT server connection channel  
+15:12:35 INFO  : plnx-install-location is set to ''
+15:12:35 INFO  : Successfully done setting workspace for the tool. 
+15:12:36 INFO  : Successfully done query RDI_DATADIR 
+15:13:42 INFO  : Result from executing command 'getProjects': design_1_wrapper
+15:13:42 INFO  : Result from executing command 'getPlatforms': 
+15:13:42 WARN  : An unexpected exception occurred in the module 'platform project logging'
+15:13:43 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+15:13:50 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+15:14:33 INFO  : Result from executing command 'getProjects': design_1_wrapper
+15:14:33 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|C:/LocalWorkspace/EE277workspace/Lab2_2021v_withoutButton/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+15:14:34 INFO  : Checking for BSP changes to sync application flags for project 'led_system'...
+15:14:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:14:45 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A98FA' is selected.
+15:14:45 INFO  : 'jtag frequency' command is executed.
+15:14:45 INFO  : Context for 'APU' is selected.
+15:14:45 INFO  : System reset is completed.
+15:14:48 INFO  : 'after 3000' command is executed.
+15:14:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A98FA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A98FA-13722093-0"}' command is executed.
+15:14:49 INFO  : Device configured successfully with "C:/LocalWorkspace/EE277workspace/Lab2_2021v_withoutButton/led_system/_ide/bitstream/design_1_wrapper.bit"
+15:14:50 INFO  : Context for 'APU' is selected.
+15:14:50 INFO  : Hardware design and registers information is loaded from 'C:/LocalWorkspace/EE277workspace/Lab2_2021v_withoutButton/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+15:14:50 INFO  : 'configparams force-mem-access 1' command is executed.
+15:14:50 INFO  : Context for 'APU' is selected.
+15:14:50 INFO  : Sourcing of 'C:/LocalWorkspace/EE277workspace/Lab2_2021v_withoutButton/led_system/_ide/psinit/ps7_init.tcl' is done.
+15:14:50 INFO  : 'ps7_init' command is executed.
+15:14:50 INFO  : 'ps7_post_config' command is executed.
+15:14:50 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:14:50 INFO  : The application 'C:/LocalWorkspace/EE277workspace/Lab2_2021v_withoutButton/led_system/Debug/led_system.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:14:50 INFO  : 'configparams force-mem-access 0' command is executed.
+15:14:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A98FA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A98FA-13722093-0"}
+fpga -file C:/LocalWorkspace/EE277workspace/Lab2_2021v_withoutButton/led_system/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/LocalWorkspace/EE277workspace/Lab2_2021v_withoutButton/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/LocalWorkspace/EE277workspace/Lab2_2021v_withoutButton/led_system/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/LocalWorkspace/EE277workspace/Lab2_2021v_withoutButton/led_system/Debug/led_system.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:14:50 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:14:50 INFO  : 'con' command is executed.
+15:14:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:14:50 INFO  : Launch script is exported to file 'C:\LocalWorkspace\EE277workspace\Lab2_2021v_withoutButton\led_system_system\_ide\scripts\systemdebugger_led_system_system_standalone.tcl'
+15:15:05 INFO  : Disconnected from the channel tcfchan#3.

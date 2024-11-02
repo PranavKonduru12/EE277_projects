@@ -1,0 +1,10 @@
+15:14:35 **** Build of configuration Debug for project led_system_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 50377 C:/LocalWorkspace/EE277workspace/Lab2_2021v_withoutButton/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm standalone_ps7_cortexa9_0 C:/LocalWorkspace/EE277workspace/Lab2_2021v_withoutButton/led_system_system/Debug/system.bif
+sdcard_gen --xpfm C:/LocalWorkspace/EE277workspace/Lab2_2021v_withoutButton/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm --sys_config design_1_wrapper --bif C:/LocalWorkspace/EE277workspace/Lab2_2021v_withoutButton/led_system_system/Debug/system.bif --bitstream C:/LocalWorkspace/EE277workspace/Lab2_2021v_withoutButton/led_system/_ide/bitstream/design_1_wrapper.bit --elf C:/LocalWorkspace/EE277workspace/Lab2_2021v_withoutButton/led_system/Debug/led_system.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/LocalWorkspace/EE277workspace/Lab2_2021v_withoutButton/led_system/_ide/bitstream/design_1_wrapper.bit
+Running C:/Xilinx/Vitis/2021.1/bin/bootgen  -image C:/LocalWorkspace/EE277workspace/Lab2_2021v_withoutButton/led_system_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+15:14:39 Build Finished (took 4s.450ms)
+
