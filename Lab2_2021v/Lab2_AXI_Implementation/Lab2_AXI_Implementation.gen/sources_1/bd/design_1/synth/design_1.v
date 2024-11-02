@@ -1,7 +1,7 @@
 //Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-//Date        : Sat Nov  2 14:07:15 2024
+//Date        : Sat Nov  2 15:50:14 2024
 //Host        : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
 //Command     : generate_target design_1.bd
 //Design      : design_1
@@ -32,6 +32,7 @@ module design_1
     FIXED_IO_ps_clk,
     FIXED_IO_ps_porb,
     FIXED_IO_ps_srstb,
+    btn,
     led,
     sw);
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR ADDR" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME DDR, AXI_ARBITRATION_SCHEME TDM, BURST_LENGTH 8, CAN_DEBUG false, CAS_LATENCY 11, CAS_WRITE_LATENCY 11, CS_ENABLED true, DATA_MASK_ENABLED true, DATA_WIDTH 8, MEMORY_TYPE COMPONENTS, MEM_ADDR_MAP ROW_COLUMN_BANK, SLOT Single, TIMEPERIOD_PS 1250" *) inout [14:0]DDR_addr;
@@ -55,10 +56,12 @@ module design_1
   (* X_INTERFACE_INFO = "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_CLK" *) inout FIXED_IO_ps_clk;
   (* X_INTERFACE_INFO = "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_PORB" *) inout FIXED_IO_ps_porb;
   (* X_INTERFACE_INFO = "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_SRSTB" *) inout FIXED_IO_ps_srstb;
+  input [3:0]btn;
   output [3:0]led;
   input [3:0]sw;
 
-  wire [3:0]AUP_advanced_SoC_0_led;
+  wire [3:0]AUP_advanced_SoC_wit_0_led;
+  wire [3:0]btn_1;
   wire [14:0]processing_system7_0_DDR_ADDR;
   wire [2:0]processing_system7_0_DDR_BA;
   wire processing_system7_0_DDR_CAS_N;
@@ -142,10 +145,12 @@ module design_1
   wire [0:0]rst_ps7_0_50M_peripheral_aresetn;
   wire [3:0]sw_1;
 
-  assign led[3:0] = AUP_advanced_SoC_0_led;
+  assign btn_1 = btn[3:0];
+  assign led[3:0] = AUP_advanced_SoC_wit_0_led;
   assign sw_1 = sw[3:0];
-  design_1_AUP_advanced_SoC_0_0 AUP_advanced_SoC_0
-       (.led(AUP_advanced_SoC_0_led),
+  design_1_AUP_advanced_SoC_wit_0_0 AUP_advanced_SoC_wit_0
+       (.btn(btn_1),
+        .led(AUP_advanced_SoC_wit_0_led),
         .s00_axi_aclk(processing_system7_0_FCLK_CLK0),
         .s00_axi_araddr(ps7_0_axi_periph_M00_AXI_ARADDR[3:0]),
         .s00_axi_aresetn(rst_ps7_0_50M_peripheral_aresetn),
