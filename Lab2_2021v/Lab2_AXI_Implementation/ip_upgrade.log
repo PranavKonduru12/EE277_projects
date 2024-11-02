@@ -1,4 +1,25 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
+| Date         : Sat Nov  2 13:46:15 2024
+| Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_AUP_advanced_SoC_wit_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_AUP_advanced_SoC_wit_0_0 (xilinx.com:user:AUP_advanced_SoC_withBtn:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
 | Date         : Sun Oct 13 16:37:47 2024
