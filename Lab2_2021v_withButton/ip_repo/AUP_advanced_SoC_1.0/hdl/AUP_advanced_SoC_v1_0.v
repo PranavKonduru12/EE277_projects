@@ -16,7 +16,7 @@
 	(
 		// Users to add ports here
 		input wire [3:0] sw,
-		input wire [3:0] btn,
+		//input wire [3:0] btn,
         output wire [3:0] led,
 
 
@@ -53,7 +53,7 @@
 		.C_S_AXI_ADDR_WIDTH(C_S00_AXI_ADDR_WIDTH)
 	) AUP_advanced_SoC_v1_0_S00_AXI_inst (
 	    .sw(sw),
-		.btn(btn),
+		//.btn(btn),
         .led(led),
 		.S_AXI_ACLK(s00_axi_aclk),
 		.S_AXI_ARESETN(s00_axi_aresetn),
