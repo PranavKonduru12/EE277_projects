@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sat Nov  2 13:46:24 2024" VIVADOVERSION="2021.1.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sat Nov  2 13:50:38 2024" VIVADOVERSION="2021.1.1">
 
   <SYSTEMINFO ARCH="zynq" BOARD="digilentinc.com:zybo-z7-10:part0:1.0" DEVICE="7z010" NAME="design_1" PACKAGE="clg400" SPEEDGRADE="-1"/>
 

@@ -2,8 +2,8 @@
 # Vivado v2021.1.1 (64-bit)
 # SW Build 3286242 on Wed Jul 28 13:10:47 MDT 2021
 # IP Build 3279568 on Wed Jul 28 16:48:48 MDT 2021
-# Start of session at: Sat Nov  2 13:46:29 2024
-# Process ID: 25836
+# Start of session at: Sat Nov  2 13:56:35 2024
+# Process ID: 26352
 # Current directory: C:/LocalWorkspace/EE277workspace/Lab2_2021v/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/design_1_AUP_advanced_SoC_wit_0_0_synth_1
 # Command line: vivado.exe -log design_1_AUP_advanced_SoC_wit_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_AUP_advanced_SoC_wit_0_0.tcl
 # Log file: C:/LocalWorkspace/EE277workspace/Lab2_2021v/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/design_1_AUP_advanced_SoC_wit_0_0_synth_1/design_1_AUP_advanced_SoC_wit_0_0.vds
@@ -16,8 +16,5 @@ INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/LocalWorkspace/EE277worksp
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
 WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
 Current IP cache path is c:/LocalWorkspace/EE277workspace/Lab2_2021v/Lab2_AXI_Implementation/Lab2_AXI_Implementation.cache/ip 
-Command: synth_design -top design_1_AUP_advanced_SoC_wit_0_0 -part xc7z010clg400-1 -mode out_of_context
-4 Infos, 1 Warnings, 0 Critical Warnings and 1 Errors encountered.
-synth_design failed
-ERROR: [Common 17-1293] The path 'C:/LocalWorkspace/EE277workspace/Lab2_2021v/Lab2_AXI_Implementation/Lab2_AXI_Implementation.cache/wt' already exists, is a directory, but is not writable.
-INFO: [Common 17-206] Exiting Vivado at Sat Nov  2 13:46:35 2024...
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_AUP_advanced_SoC_wit_0_0, cache-ID = e41d189fcdd14df7.
+INFO: [Common 17-206] Exiting Vivado at Sat Nov  2 13:56:40 2024...
