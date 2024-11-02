@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/LocalWorkspace/EE277workspace/Lab2_2021v/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1'
+HD_PWD='C:/LocalWorkspace/EE277workspace/Lab2_2021v_withoutButton/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

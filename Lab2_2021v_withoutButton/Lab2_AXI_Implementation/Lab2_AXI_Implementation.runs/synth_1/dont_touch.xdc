@@ -21,4 +21,4 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_rs
 # IP: bd/design_1/ip/design_1_AUP_advanced_SoC_0_0/design_1_AUP_advanced_SoC_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_AUP_advanced_SoC_0_0 || ORIG_REF_NAME==design_1_AUP_advanced_SoC_0_0} -quiet] -quiet
 
-# XDC: c:/LocalWorkspace/EE277workspace/Lab2_2021v/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/design_1_ooc.xdc
+# XDC: c:/LocalWorkspace/EE277workspace/Lab2_2021v_withoutButton/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/design_1_ooc.xdc

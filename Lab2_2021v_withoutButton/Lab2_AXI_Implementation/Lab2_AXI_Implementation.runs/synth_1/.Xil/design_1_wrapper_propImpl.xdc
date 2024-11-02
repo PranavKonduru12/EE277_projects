@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/LocalWorkspace/EE277workspace/Lab2_2021v/Lab2_AXI_Implementation/Lab2_AXI_Implementation.srcs/constrs_1/new/pin_constraints.xdc rfile:../../../Lab2_AXI_Implementation.srcs/constrs_1/new/pin_constraints.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/LocalWorkspace/EE277workspace/Lab2_2021v_withoutButton/Lab2_AXI_Implementation/Lab2_AXI_Implementation.srcs/constrs_1/new/pin_constraints.xdc rfile:../../../Lab2_AXI_Implementation.srcs/constrs_1/new/pin_constraints.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:13 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN G15   IOSTANDARD LVCMOS33 } [get_ports { sw[0] }]; #IO_L19N_T3_VREF_35 Sch=sw[0]
 set_property src_info {type:XDC file:1 line:14 export:INPUT save:INPUT read:READ} [current_design]
