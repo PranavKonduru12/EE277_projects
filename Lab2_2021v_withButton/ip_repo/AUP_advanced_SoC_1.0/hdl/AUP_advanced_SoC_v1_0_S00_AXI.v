@@ -16,6 +16,7 @@
 	(
 		// Users to add ports here
 		input wire [3:0] sw,
+		input wire [3:0] btn,
         output wire [3:0] led,
 
 
@@ -373,8 +374,8 @@
 	begin
 	      // Address decoding for reading registers
 	      case ( axi_araddr[ADDR_LSB+OPT_MEM_ADDR_BITS:ADDR_LSB] )
-	        2'h0   : reg_data_out <= {slv_reg0[C_S_AXI_DATA_WIDTH-1:4], sw[3:0]};
-	        2'h0   : reg_data_out <= slv_reg0;
+	        2'h0   : reg_data_out <= {slv_reg0[C_S_AXI_DATA_WIDTH-1:8], sw[3:0], btn[3:0]};
+	        //2'h0   : reg_data_out <= slv_reg0;
 	        2'h1   : reg_data_out <= slv_reg1;
 	        2'h2   : reg_data_out <= slv_reg2;
 	        2'h3   : reg_data_out <= slv_reg3;
