@@ -31,13 +31,13 @@
  
  
 /******************************************************************/
-/* Definitions for driver AUP_ADVANCED_SOC */
-#define XPAR_AUP_ADVANCED_SOC_NUM_INSTANCES 1
+/* Definitions for driver AUP_ADVANCED_SOC_WITHBTN */
+#define XPAR_AUP_ADVANCED_SOC_WITHBTN_NUM_INSTANCES 1
 
-/* Definitions for peripheral AUP_ADVANCED_SOC_0 */
-#define XPAR_AUP_ADVANCED_SOC_0_DEVICE_ID 0
-#define XPAR_AUP_ADVANCED_SOC_0_S00_AXI_BASEADDR 0x43C00000
-#define XPAR_AUP_ADVANCED_SOC_0_S00_AXI_HIGHADDR 0x43C00FFF
+/* Definitions for peripheral AUP_ADVANCED_SOC_WIT_0 */
+#define XPAR_AUP_ADVANCED_SOC_WIT_0_DEVICE_ID 0
+#define XPAR_AUP_ADVANCED_SOC_WIT_0_S00_AXI_BASEADDR 0x43C00000
+#define XPAR_AUP_ADVANCED_SOC_WIT_0_S00_AXI_HIGHADDR 0x43C00FFF
 
 
 /******************************************************************/

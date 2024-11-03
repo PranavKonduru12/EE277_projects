@@ -1,139 +1,61 @@
-15:33:09 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\LocalWorkspace\EE277workspace\Lab2_2021v\VitisWorkspace\temp_xsdb_launch_script.tcl
-15:33:09 INFO  : Platform repository initialization has completed.
-15:33:10 INFO  : Registering command handlers for Vitis TCF services
-15:33:11 INFO  : XSCT server has started successfully.
-15:33:11 INFO  : Successfully done setting XSCT server connection channel  
-15:33:11 INFO  : plnx-install-location is set to ''
-15:33:11 INFO  : Successfully done setting workspace for the tool. 
-15:33:11 INFO  : Successfully done query RDI_DATADIR 
-15:34:00 INFO  : Result from executing command 'getProjects': design_1_wrapper
-15:34:00 INFO  : Result from executing command 'getPlatforms': 
-15:34:00 WARN  : An unexpected exception occurred in the module 'platform project logging'
-15:34:00 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
-15:34:07 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
-15:34:45 INFO  : Result from executing command 'getProjects': design_1_wrapper
-15:34:45 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
-15:34:45 INFO  : Checking for BSP changes to sync application flags for project 'led_system_AXILite'...
-15:34:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
-15:34:56 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A98FA' is selected.
-15:34:56 INFO  : 'jtag frequency' command is executed.
-15:34:56 INFO  : Context for 'APU' is selected.
-15:34:56 INFO  : System reset is completed.
-15:34:59 INFO  : 'after 3000' command is executed.
-15:34:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A98FA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A98FA-13722093-0"}' command is executed.
-15:35:00 INFO  : Device configured successfully with "C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/led_system_AXILite/_ide/bitstream/design_1_wrapper.bit"
-15:35:00 INFO  : Context for 'APU' is selected.
-15:35:00 INFO  : Hardware design and registers information is loaded from 'C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
-15:35:00 INFO  : 'configparams force-mem-access 1' command is executed.
-15:35:00 INFO  : Context for 'APU' is selected.
-15:35:00 INFO  : Sourcing of 'C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/led_system_AXILite/_ide/psinit/ps7_init.tcl' is done.
-15:35:01 INFO  : 'ps7_init' command is executed.
-15:35:01 INFO  : 'ps7_post_config' command is executed.
-15:35:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
-15:35:01 INFO  : The application 'C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/led_system_AXILite/Debug/led_system_AXILite.elf' is downloaded to processor 'ps7_cortexa9_0'.
-15:35:01 INFO  : 'configparams force-mem-access 0' command is executed.
-15:35:01 INFO  : ----------------XSDB Script----------------
+21:59:38 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\LocalWorkspace\EE277workspace\Lab2_2021v\VitisWorkspace\temp_xsdb_launch_script.tcl
+21:59:38 INFO  : Platform repository initialization has completed.
+21:59:39 INFO  : Registering command handlers for Vitis TCF services
+21:59:40 INFO  : XSCT server has started successfully.
+21:59:40 INFO  : Successfully done setting XSCT server connection channel  
+21:59:40 INFO  : plnx-install-location is set to ''
+21:59:40 INFO  : Successfully done setting workspace for the tool. 
+21:59:40 INFO  : Successfully done query RDI_DATADIR 
+22:00:49 INFO  : Result from executing command 'getProjects': design_1_wrapper
+22:00:49 INFO  : Result from executing command 'getPlatforms': 
+22:00:49 WARN  : An unexpected exception occurred in the module 'platform project logging'
+22:00:49 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+22:00:56 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+22:09:35 INFO  : Result from executing command 'getProjects': design_1_wrapper
+22:09:36 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+22:09:36 INFO  : Checking for BSP changes to sync application flags for project 'ledsystem_AXILite'...
+22:09:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:09:49 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A98FA' is selected.
+22:09:49 INFO  : 'jtag frequency' command is executed.
+22:09:49 INFO  : Context for 'APU' is selected.
+22:09:49 INFO  : System reset is completed.
+22:09:52 INFO  : 'after 3000' command is executed.
+22:09:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A98FA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A98FA-13722093-0"}' command is executed.
+22:09:54 INFO  : Device configured successfully with "C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/ledsystem_AXILite/_ide/bitstream/design_1_wrapper.bit"
+22:09:54 INFO  : Context for 'APU' is selected.
+22:09:54 INFO  : Hardware design and registers information is loaded from 'C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+22:09:54 INFO  : 'configparams force-mem-access 1' command is executed.
+22:09:54 INFO  : Context for 'APU' is selected.
+22:09:54 INFO  : Sourcing of 'C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/ledsystem_AXILite/_ide/psinit/ps7_init.tcl' is done.
+22:09:54 INFO  : 'ps7_init' command is executed.
+22:09:54 INFO  : 'ps7_post_config' command is executed.
+22:09:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:09:54 INFO  : The application 'C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/ledsystem_AXILite/Debug/ledsystem_AXILite.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:09:54 INFO  : 'configparams force-mem-access 0' command is executed.
+22:09:54 INFO  : ----------------XSDB Script----------------
 connect -url tcp:127.0.0.1:3121
 targets -set -nocase -filter {name =~"APU*"}
 rst -system
 after 3000
 targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A98FA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A98FA-13722093-0"}
-fpga -file C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/led_system_AXILite/_ide/bitstream/design_1_wrapper.bit
+fpga -file C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/ledsystem_AXILite/_ide/bitstream/design_1_wrapper.bit
 targets -set -nocase -filter {name =~"APU*"}
 loadhw -hw C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
 configparams force-mem-access 1
 targets -set -nocase -filter {name =~"APU*"}
-source C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/led_system_AXILite/_ide/psinit/ps7_init.tcl
+source C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/ledsystem_AXILite/_ide/psinit/ps7_init.tcl
 ps7_init
 ps7_post_config
 targets -set -nocase -filter {name =~ "*A9*#0"}
-dow C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/led_system_AXILite/Debug/led_system_AXILite.elf
+dow C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/ledsystem_AXILite/Debug/ledsystem_AXILite.elf
 configparams force-mem-access 0
 ----------------End of Script----------------
 
-15:35:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
-15:35:01 INFO  : 'con' command is executed.
-15:35:01 INFO  : ----------------XSDB Script (After Launch)----------------
+22:09:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:09:54 INFO  : 'con' command is executed.
+22:09:54 INFO  : ----------------XSDB Script (After Launch)----------------
 targets -set -nocase -filter {name =~ "*A9*#0"}
 con
 ----------------End of Script----------------
 
-15:35:01 INFO  : Launch script is exported to file 'C:\LocalWorkspace\EE277workspace\Lab2_2021v\VitisWorkspace\led_system_AXILite_system\_ide\scripts\systemdebugger_led_system_axilite_system_standalone.tcl'
-16:05:02 INFO  : Disconnected from the channel tcfchan#3.
-16:05:09 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\LocalWorkspace\EE277workspace\Lab2_2021v\VitisWorkspace\temp_xsdb_launch_script.tcl
-16:05:11 INFO  : XSCT server has started successfully.
-16:05:11 INFO  : Successfully done setting XSCT server connection channel  
-16:05:11 INFO  : plnx-install-location is set to ''
-16:05:11 INFO  : Successfully done setting workspace for the tool. 
-16:05:12 INFO  : Platform repository initialization has completed.
-16:05:12 INFO  : Successfully done query RDI_DATADIR 
-16:05:13 INFO  : Registering command handlers for Vitis TCF services
-16:11:53 INFO  : Hardware specification for platform project 'design_1_wrapper' is updated.
-16:15:26 INFO  : Result from executing command 'getProjects': design_1_wrapper
-16:15:26 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
-16:15:26 INFO  : Checking for BSP changes to sync application flags for project 'led_system_AXILite'...
-16:15:28 INFO  : Updating application flags with new BSP settings...
-16:15:29 INFO  : Successfully updated application flags for project led_system_AXILite.
-16:15:29 INFO  : The hardware specification used by project 'led_system_AXILite' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
-16:15:29 INFO  : The file 'C:\LocalWorkspace\EE277workspace\Lab2_2021v\VitisWorkspace\led_system_AXILite\_ide\bitstream\design_1_wrapper.bit' stored in project is removed.
-16:15:29 INFO  : The updated bitstream files are copied from platform to folder 'C:\LocalWorkspace\EE277workspace\Lab2_2021v\VitisWorkspace\led_system_AXILite\_ide\bitstream' in project 'led_system_AXILite'.
-16:15:29 INFO  : The file 'C:\LocalWorkspace\EE277workspace\Lab2_2021v\VitisWorkspace\led_system_AXILite\_ide\psinit\ps7_init.tcl' stored in project is removed.
-16:15:34 INFO  : The updated ps init files are copied from platform to folder 'C:\LocalWorkspace\EE277workspace\Lab2_2021v\VitisWorkspace\led_system_AXILite\_ide\psinit' in project 'led_system_AXILite'.
-16:15:42 INFO  : Checking for BSP changes to sync application flags for project 'led_system_AXILite'...
-16:16:15 INFO  : Checking for BSP changes to sync application flags for project 'led_system_AXILite'...
-16:16:30 INFO  : Checking for BSP changes to sync application flags for project 'led_system_AXILite'...
-16:18:32 INFO  : Checking for BSP changes to sync application flags for project 'led_system_AXILite'...
-16:18:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
-16:18:49 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A98FA' is selected.
-16:18:49 INFO  : 'jtag frequency' command is executed.
-16:18:49 INFO  : Context for 'APU' is selected.
-16:18:49 INFO  : System reset is completed.
-16:18:52 INFO  : 'after 3000' command is executed.
-16:18:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A98FA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A98FA-13722093-0"}' command is executed.
-16:18:53 INFO  : Device configured successfully with "C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/led_system_AXILite/_ide/bitstream/design_1_wrapper.bit"
-16:18:54 INFO  : Context for 'APU' is selected.
-16:18:54 INFO  : Hardware design and registers information is loaded from 'C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
-16:18:54 INFO  : 'configparams force-mem-access 1' command is executed.
-16:18:54 INFO  : Context for 'APU' is selected.
-16:18:54 INFO  : Sourcing of 'C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/led_system_AXILite/_ide/psinit/ps7_init.tcl' is done.
-16:18:54 INFO  : 'ps7_init' command is executed.
-16:18:54 INFO  : 'ps7_post_config' command is executed.
-16:18:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
-16:18:54 INFO  : The application 'C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/led_system_AXILite/Debug/led_system_AXILite.elf' is downloaded to processor 'ps7_cortexa9_0'.
-16:18:54 INFO  : 'configparams force-mem-access 0' command is executed.
-16:18:54 INFO  : ----------------XSDB Script----------------
-connect -url tcp:127.0.0.1:3121
-targets -set -nocase -filter {name =~"APU*"}
-rst -system
-after 3000
-targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A98FA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A98FA-13722093-0"}
-fpga -file C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/led_system_AXILite/_ide/bitstream/design_1_wrapper.bit
-targets -set -nocase -filter {name =~"APU*"}
-loadhw -hw C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
-configparams force-mem-access 1
-targets -set -nocase -filter {name =~"APU*"}
-source C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/led_system_AXILite/_ide/psinit/ps7_init.tcl
-ps7_init
-ps7_post_config
-targets -set -nocase -filter {name =~ "*A9*#0"}
-dow C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/led_system_AXILite/Debug/led_system_AXILite.elf
-configparams force-mem-access 0
-----------------End of Script----------------
-
-16:18:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
-16:18:54 INFO  : 'con' command is executed.
-16:18:54 INFO  : ----------------XSDB Script (After Launch)----------------
-targets -set -nocase -filter {name =~ "*A9*#0"}
-con
-----------------End of Script----------------
-
-16:18:54 INFO  : Launch script is exported to file 'C:\LocalWorkspace\EE277workspace\Lab2_2021v\VitisWorkspace\led_system_AXILite_system\_ide\scripts\systemdebugger_led_system_axilite_system_standalone.tcl'
-16:19:11 INFO  : Disconnected from the channel tcfchan#3.
-16:19:47 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\LocalWorkspace\EE277workspace\Lab2_2021v\VitisWorkspace\temp_xsdb_launch_script.tcl
-16:19:49 INFO  : XSCT server has started successfully.
-16:19:49 INFO  : plnx-install-location is set to ''
-16:19:49 INFO  : Successfully done setting XSCT server connection channel  
-16:19:49 INFO  : Successfully done setting workspace for the tool. 
-16:19:50 INFO  : Platform repository initialization has completed.
-16:19:50 INFO  : Successfully done query RDI_DATADIR 
-16:19:51 INFO  : Registering command handlers for Vitis TCF services
+22:09:54 INFO  : Launch script is exported to file 'C:\LocalWorkspace\EE277workspace\Lab2_2021v\VitisWorkspace\ledsystem_AXILite_system\_ide\scripts\systemdebugger_ledsystem_axilite_system_standalone.tcl'
