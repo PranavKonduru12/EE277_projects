@@ -1,10 +1,10 @@
 -- Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
--- Date        : Sat Nov  2 13:56:12 2024
+-- Date        : Sat Nov  2 21:29:05 2024
 -- Host        : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim -rename_top design_1_AUP_advanced_SoC_wit_0_0 -prefix
---               design_1_AUP_advanced_SoC_wit_0_0_ design_1_AUP_advanced_SoC_wit_0_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim
+--               c:/LocalWorkspace/EE277workspace/Lab2_2021v/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/ip/design_1_AUP_advanced_SoC_wit_0_0/design_1_AUP_advanced_SoC_wit_0_0_sim_netlist.vhdl
 -- Design      : design_1_AUP_advanced_SoC_wit_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -37,6 +37,8 @@ entity design_1_AUP_advanced_SoC_wit_0_0_AUP_advanced_SoC_withBtn_v1_0_S00_AXI i
     s00_axi_bready : in STD_LOGIC;
     s00_axi_rready : in STD_LOGIC
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_AUP_advanced_SoC_wit_0_0_AUP_advanced_SoC_withBtn_v1_0_S00_AXI : entity is "AUP_advanced_SoC_withBtn_v1_0_S00_AXI";
 end design_1_AUP_advanced_SoC_wit_0_0_AUP_advanced_SoC_withBtn_v1_0_S00_AXI;
 
 architecture STRUCTURE of design_1_AUP_advanced_SoC_wit_0_0_AUP_advanced_SoC_withBtn_v1_0_S00_AXI is
@@ -2153,6 +2155,8 @@ entity design_1_AUP_advanced_SoC_wit_0_0_AUP_advanced_SoC_withBtn_v1_0 is
     s00_axi_bready : in STD_LOGIC;
     s00_axi_rready : in STD_LOGIC
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_AUP_advanced_SoC_wit_0_0_AUP_advanced_SoC_withBtn_v1_0 : entity is "AUP_advanced_SoC_withBtn_v1_0";
 end design_1_AUP_advanced_SoC_wit_0_0_AUP_advanced_SoC_withBtn_v1_0;
 
 architecture STRUCTURE of design_1_AUP_advanced_SoC_wit_0_0_AUP_advanced_SoC_withBtn_v1_0 is

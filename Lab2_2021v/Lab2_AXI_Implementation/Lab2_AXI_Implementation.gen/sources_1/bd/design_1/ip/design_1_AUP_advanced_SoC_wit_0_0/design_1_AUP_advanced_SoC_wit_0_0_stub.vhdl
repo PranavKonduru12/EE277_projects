@@ -1,10 +1,10 @@
 -- Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
--- Date        : Sat Nov  2 13:56:12 2024
+-- Date        : Sat Nov  2 21:29:05 2024
 -- Host        : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub -rename_top design_1_AUP_advanced_SoC_wit_0_0 -prefix
---               design_1_AUP_advanced_SoC_wit_0_0_ design_1_AUP_advanced_SoC_wit_0_0_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub
+--               c:/LocalWorkspace/EE277workspace/Lab2_2021v/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/ip/design_1_AUP_advanced_SoC_wit_0_0/design_1_AUP_advanced_SoC_wit_0_0_stub.vhdl
 -- Design      : design_1_AUP_advanced_SoC_wit_0_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7z010clg400-1

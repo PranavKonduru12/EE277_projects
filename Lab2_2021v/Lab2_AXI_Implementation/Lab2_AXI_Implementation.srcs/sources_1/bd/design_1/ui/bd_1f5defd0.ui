@@ -1,31 +1,31 @@
 {
    "ActiveEmotionalView":"Default View",
    "Default View_ScaleFactor":"0.767925",
-   "Default View_TopLeft":"-116,-219",
+   "Default View_TopLeft":"-116,-217",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
 #  -string -flagsOSRD
 preplace port DDR -pg 1 -lvl 5 -x 1370 -y -10 -defaultsOSRD
 preplace port FIXED_IO -pg 1 -lvl 5 -x 1370 -y 10 -defaultsOSRD
 preplace portBus led -pg 1 -lvl 5 -x 1370 -y -190 -defaultsOSRD
-preplace portBus sw -pg 1 -lvl 0 -x -20 -y -190 -defaultsOSRD
-preplace portBus btn -pg 1 -lvl 0 -x -20 -y -170 -defaultsOSRD
+preplace portBus sw -pg 1 -lvl 0 -x -30 -y -190 -defaultsOSRD
+preplace portBus btn -pg 1 -lvl 0 -x -30 -y -170 -defaultsOSRD
 preplace inst processing_system7_0 -pg 1 -lvl 2 -x 460 -y 40 -defaultsOSRD
-preplace inst AUP_advanced_SoC_wit_0 -pg 1 -lvl 1 -x 140 -y 130 -defaultsOSRD
 preplace inst ps7_0_axi_periph -pg 1 -lvl 4 -x 1200 -y 280 -defaultsOSRD
 preplace inst rst_ps7_0_50M -pg 1 -lvl 3 -x 860 -y -110 -defaultsOSRD
-preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 30 30 250 -90 680 70 1030
-preplace netloc processing_system7_0_FCLK_RESET0_N 1 2 1 690 -130n
-preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 0 4 30 230 NJ 230 NJ 230 1040
-preplace netloc sw_1 1 0 1 10 -190n
-preplace netloc btn_1 1 0 1 0 -170n
+preplace inst AUP_advanced_SoC_wit_0 -pg 1 -lvl 1 -x 140 -y 130 -defaultsOSRD
 preplace netloc AUP_advanced_SoC_wit_0_led 1 1 4 260J -80 670J 30 1050J -190 N
+preplace netloc btn_1 1 0 1 -10 -170n
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 20 30 250 -90 680 70 1030
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 2 1 690 -130n
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 0 4 20 230 NJ 230 NJ 230 1040
+preplace netloc sw_1 1 0 1 0 -190n
 preplace netloc processing_system7_0_DDR 1 2 3 NJ -10 N -10 N
 preplace netloc processing_system7_0_FIXED_IO 1 2 3 NJ 10 N 10 N
 preplace netloc processing_system7_0_M_AXI_GP0 1 2 2 NJ 50 1050
-preplace netloc ps7_0_axi_periph_M00_AXI 1 0 5 20 -70 NJ -70 660J 20 NJ 20 1350
-levelinfo -pg 1 -20 140 460 860 1200 1370
-pagesize -pg 1 -db -bbox -sgen -120 -210 1490 400
+preplace netloc ps7_0_axi_periph_M00_AXI 1 0 5 10 -70 NJ -70 660J 20 NJ 20 1350
+levelinfo -pg 1 -30 140 460 860 1200 1370
+pagesize -pg 1 -db -bbox -sgen -130 -210 1490 400
 "
 }
 {

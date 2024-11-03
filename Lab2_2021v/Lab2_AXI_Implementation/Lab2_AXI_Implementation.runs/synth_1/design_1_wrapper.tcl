@@ -95,7 +95,7 @@ set_property ip_output_repo c:/LocalWorkspace/EE277workspace/Lab2_2021v/Lab2_AXI
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib c:/LocalWorkspace/EE277workspace/Lab2_2021v/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+read_verilog -library xil_defaultlib C:/LocalWorkspace/EE277workspace/Lab2_2021v/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
 add_files C:/LocalWorkspace/EE277workspace/Lab2_2021v/Lab2_AXI_Implementation/Lab2_AXI_Implementation.srcs/sources_1/bd/design_1/design_1.bd
 set_property used_in_implementation false [get_files -all c:/LocalWorkspace/EE277workspace/Lab2_2021v/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc]
 set_property used_in_implementation false [get_files -all c:/LocalWorkspace/EE277workspace/Lab2_2021v/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0_board.xdc]
