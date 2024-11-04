@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1.1 (64-bit)
+# SW Build 3286242 on Wed Jul 28 13:10:47 MDT 2021
+# IP Build 3279568 on Wed Jul 28 16:48:48 MDT 2021
+# Start of session at: Mon Nov  4 13:58:35 2024
+# Process ID: 41472
+# Current directory: C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/design_1_v_axi4s_vid_out_0_0_synth_1
+# Command line: vivado.exe -log design_1_v_axi4s_vid_out_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_v_axi4s_vid_out_0_0.tcl
+# Log file: C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/design_1_v_axi4s_vid_out_0_0_synth_1/design_1_v_axi4s_vid_out_0_0.vds
+# Journal file: C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/design_1_v_axi4s_vid_out_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_v_axi4s_vid_out_0_0.tcl -notrace

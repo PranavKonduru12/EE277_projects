@@ -1,0 +1,10 @@
+14:05:23 **** Incremental Build of configuration Debug for project ledsystem_AXILite ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+make[1]: Nothing to be done for 'main-build'.
+
+14:05:24 Build Finished (took 510ms)
+
