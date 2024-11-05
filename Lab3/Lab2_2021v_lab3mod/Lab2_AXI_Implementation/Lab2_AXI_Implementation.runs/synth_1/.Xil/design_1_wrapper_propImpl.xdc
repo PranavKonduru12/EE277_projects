@@ -23,27 +23,19 @@ set_property src_info {type:XDC file:1 line:29 export:INPUT save:INPUT read:READ
 set_property -dict { PACKAGE_PIN G14   IOSTANDARD LVCMOS33 } [get_ports { led[2] }]; #IO_0_35 Sch=led[2]
 set_property src_info {type:XDC file:1 line:30 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN D18   IOSTANDARD LVCMOS33 } [get_ports { led[3] }]; #IO_L3N_T0_DQS_AD1N_35 Sch=led[3]
-set_property src_info {type:XDC file:1 line:82 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN H17 IOSTANDARD TMDS_33 } [get_ports
-{ hdmi_output_clk_n }]; #IO_L13N_T2_MRCC_35 Sch=hdmi_tx_clk_n
-set_property src_info {type:XDC file:1 line:85 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN H16 IOSTANDARD TMDS_33 } [get_ports
-{ hdmi_output_clk_p }]; #IO_L13P_T2_MRCC_35 Sch=hdmi_tx_clk_p
-set_property src_info {type:XDC file:1 line:88 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN D20 IOSTANDARD TMDS_33 } [get_ports
-{ hdmi_output_data_n[0] }]; #IO_L4N_T0_35 Sch=hdmi_tx_n[0]
-set_property src_info {type:XDC file:1 line:91 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN D19 IOSTANDARD TMDS_33 } [get_ports
-{ hdmi_output_data_p[0] }]; #IO_L4P_T0_35 Sch=hdmi_tx_p[0]
-set_property src_info {type:XDC file:1 line:94 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN B20 IOSTANDARD TMDS_33 } [get_ports
-{ hdmi_output_data_n[1] }]; #IO_L1N_TO_ADON_35 Sch=hdmi_tx_n[1]
-set_property src_info {type:XDC file:1 line:97 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN C20 IOSTANDARD TMDS_33 } [get_ports
-{ hdmi_output_data_p[1] }]; #IO_L1P_T0_ADOP_35 Sch=hdmi_tx_p[1]
-set_property src_info {type:XDC file:1 line:100 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN A20 IOSTANDARD TMDS_33 } [get_ports
-{ hdmi_output_data_n[2] }]; #IO_L2N_T0_AD8N_35 Sch=hdmi_tx_n[2]
+set_property src_info {type:XDC file:1 line:101 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN H17 IOSTANDARD TMDS_33 } [get_ports { hdmi_output_clk_n }]; #IO_L13N_T2_MRCC_35 Sch=hdmi_tx_clk_n
 set_property src_info {type:XDC file:1 line:103 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN B19 IOSTANDARD TMDS_33 } [get_ports
-{ hdmi_output_data_p[2] }]; #IO_L2P_T0_AD8P_35 Sch=hdmi_tx_p[2]
+set_property -dict { PACKAGE_PIN H16 IOSTANDARD TMDS_33 } [get_ports { hdmi_output_clk_p }]; #IO_L13P_T2_MRCC_35 Sch=hdmi_tx_clk_p
+set_property src_info {type:XDC file:1 line:105 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN D20 IOSTANDARD TMDS_33 } [get_ports { hdmi_output_data_n[0] }]; #IO_L4N_T0_35 Sch=hdmi_tx_n[0]
+set_property src_info {type:XDC file:1 line:107 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN D19 IOSTANDARD TMDS_33 } [get_ports { hdmi_output_data_p[0] }]; #IO_L4P_T0_35 Sch=hdmi_tx_p[0]
+set_property src_info {type:XDC file:1 line:109 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN B20 IOSTANDARD TMDS_33 } [get_ports { hdmi_output_data_n[1] }]; #IO_L1N_TO_ADON_35 Sch=hdmi_tx_n[1]
+set_property src_info {type:XDC file:1 line:111 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN C20 IOSTANDARD TMDS_33 } [get_ports { hdmi_output_data_p[1] }]; #IO_L1P_T0_ADOP_35 Sch=hdmi_tx_p[1]
+set_property src_info {type:XDC file:1 line:113 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN A20 IOSTANDARD TMDS_33 } [get_ports { hdmi_output_data_n[2] }]; #IO_L2N_T0_AD8N_35 Sch=hdmi_tx_n[2]
+set_property src_info {type:XDC file:1 line:115 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN B19 IOSTANDARD TMDS_33 } [get_ports { hdmi_output_data_p[2] }]; #IO_L2P_T0_AD8P_35 Sch=hdmi_tx_p[2]

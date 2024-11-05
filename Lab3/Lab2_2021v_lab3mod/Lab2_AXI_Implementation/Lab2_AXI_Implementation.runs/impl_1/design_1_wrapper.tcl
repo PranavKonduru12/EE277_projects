@@ -134,9 +134,9 @@ OPTRACE "set parameters" START { }
   set_property webtalk.parent_dir C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.cache/wt [current_project]
   set_property parent.project_path C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.xpr [current_project]
   set_property ip_repo_paths {
-  c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/ip_repo/AUP_advanced_SoC_withBtn_1.0
+  C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/ip_repo/AUP_advanced_SoC_withBtn_1.0
   C:/LocalWorkspace/EE277workspace/Lab3/vivado_library
-  c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/ip_repo/AUP_advanced_SoC_1.0
+  C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/ip_repo/AUP_advanced_SoC_1.0
 } [current_project]
   update_ip_catalog
   set_property ip_output_repo C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.cache/ip [current_project]

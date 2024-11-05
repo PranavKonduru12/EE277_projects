@@ -2,8 +2,8 @@
 # Vivado v2021.1.1 (64-bit)
 # SW Build 3286242 on Wed Jul 28 13:10:47 MDT 2021
 # IP Build 3279568 on Wed Jul 28 16:48:48 MDT 2021
-# Start of session at: Mon Nov  4 14:00:24 2024
-# Process ID: 34544
+# Start of session at: Mon Nov  4 22:20:23 2024
+# Process ID: 6960
 # Current directory: C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1
 # Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
 # Log file: C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/design_1_wrapper.vds
@@ -24,33 +24,33 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010
 INFO: [Device 21-403] Loading part xc7z010clg400-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 41452
+INFO: [Synth 8-7075] Helper process launched with PID 24384
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1282.793 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1283.543 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'design_1' [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:13]
-INFO: [Synth 8-6157] synthesizing module 'design_1_AUP_advanced_SoC_wit_0_0' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-34544-DESKTOP-DRHKE68/realtime/design_1_AUP_advanced_SoC_wit_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_AUP_advanced_SoC_wit_0_0' (1#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-34544-DESKTOP-DRHKE68/realtime/design_1_AUP_advanced_SoC_wit_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_axi_dynclk_0_0' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-34544-DESKTOP-DRHKE68/realtime/design_1_axi_dynclk_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_dynclk_0_0' (2#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-34544-DESKTOP-DRHKE68/realtime/design_1_axi_dynclk_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_AUP_advanced_SoC_wit_0_0' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-6960-DESKTOP-DRHKE68/realtime/design_1_AUP_advanced_SoC_wit_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_AUP_advanced_SoC_wit_0_0' (1#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-6960-DESKTOP-DRHKE68/realtime/design_1_AUP_advanced_SoC_wit_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_dynclk_0_0' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-6960-DESKTOP-DRHKE68/realtime/design_1_axi_dynclk_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_dynclk_0_0' (2#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-6960-DESKTOP-DRHKE68/realtime/design_1_axi_dynclk_0_0_stub.v:6]
 INFO: [Synth 8-6157] synthesizing module 'design_1_axi_mem_intercon_0' [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:710]
 INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_7HNO1D' [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:2254]
-INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_1' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-34544-DESKTOP-DRHKE68/realtime/design_1_auto_pc_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_1' (3#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-34544-DESKTOP-DRHKE68/realtime/design_1_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_1' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-6960-DESKTOP-DRHKE68/realtime/design_1_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_1' (3#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-6960-DESKTOP-DRHKE68/realtime/design_1_auto_pc_1_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_7HNO1D' (4#1) [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:2254]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_mem_intercon_0' (5#1) [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:710]
-INFO: [Synth 8-6157] synthesizing module 'design_1_axi_vdma_0_0' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-34544-DESKTOP-DRHKE68/realtime/design_1_axi_vdma_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_vdma_0_0' (6#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-34544-DESKTOP-DRHKE68/realtime/design_1_axi_vdma_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_vdma_0_0' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-6960-DESKTOP-DRHKE68/realtime/design_1_axi_vdma_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_vdma_0_0' (6#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-6960-DESKTOP-DRHKE68/realtime/design_1_axi_vdma_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'mm2s_frame_ptr_out' of module 'design_1_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:357]
 WARNING: [Synth 8-7071] port 'mm2s_introut' of module 'design_1_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:357]
 WARNING: [Synth 8-7023] instance 'axi_vdma_0' of module 'design_1_axi_vdma_0_0' has 41 connections declared, but only 39 given [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:357]
-INFO: [Synth 8-6157] synthesizing module 'design_1_axis_subset_converter_0_0' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-34544-DESKTOP-DRHKE68/realtime/design_1_axis_subset_converter_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_axis_subset_converter_0_0' (7#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-34544-DESKTOP-DRHKE68/realtime/design_1_axis_subset_converter_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axis_subset_converter_0_0' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-6960-DESKTOP-DRHKE68/realtime/design_1_axis_subset_converter_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axis_subset_converter_0_0' (7#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-6960-DESKTOP-DRHKE68/realtime/design_1_axis_subset_converter_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'm_axis_tkeep' of module 'design_1_axis_subset_converter_0_0' is unconnected for instance 'axis_subset_converter_0' [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:397]
 WARNING: [Synth 8-7023] instance 'axis_subset_converter_0' of module 'design_1_axis_subset_converter_0_0' has 14 connections declared, but only 13 given [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:397]
-INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-34544-DESKTOP-DRHKE68/realtime/design_1_processing_system7_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (8#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-34544-DESKTOP-DRHKE68/realtime/design_1_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-6960-DESKTOP-DRHKE68/realtime/design_1_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (8#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-6960-DESKTOP-DRHKE68/realtime/design_1_processing_system7_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'USB0_PORT_INDCTL' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:411]
 WARNING: [Synth 8-7071] port 'USB0_VBUS_PWRSELECT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:411]
 WARNING: [Synth 8-7071] port 'S_AXI_HP1_AWREADY' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:411]
@@ -74,25 +74,25 @@ INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_14WQB4R' (11#1) 
 INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_YFYJ3U' [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:2122]
 INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_YFYJ3U' (12#1) [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:2122]
 INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_UYSKKA' [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:2417]
-INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_0' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-34544-DESKTOP-DRHKE68/realtime/design_1_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_0' (13#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-34544-DESKTOP-DRHKE68/realtime/design_1_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_0' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-6960-DESKTOP-DRHKE68/realtime/design_1_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_0' (13#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-6960-DESKTOP-DRHKE68/realtime/design_1_auto_pc_0_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_UYSKKA' (14#1) [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:2417]
-INFO: [Synth 8-6157] synthesizing module 'design_1_xbar_0' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-34544-DESKTOP-DRHKE68/realtime/design_1_xbar_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_xbar_0' (15#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-34544-DESKTOP-DRHKE68/realtime/design_1_xbar_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xbar_0' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-6960-DESKTOP-DRHKE68/realtime/design_1_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xbar_0' (15#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-6960-DESKTOP-DRHKE68/realtime/design_1_xbar_0_stub.v:6]
 WARNING: [Synth 8-689] width (6) of port connection 'm_axi_arprot' does not match port width (12) of module 'design_1_xbar_0' [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:1666]
 WARNING: [Synth 8-689] width (6) of port connection 'm_axi_awprot' does not match port width (12) of module 'design_1_xbar_0' [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:1670]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_ps7_0_axi_periph_0' (16#1) [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:880]
-INFO: [Synth 8-6157] synthesizing module 'design_1_rgb2dvi_0_0' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-34544-DESKTOP-DRHKE68/realtime/design_1_rgb2dvi_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_rgb2dvi_0_0' (17#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-34544-DESKTOP-DRHKE68/realtime/design_1_rgb2dvi_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps7_0_50M_0' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-34544-DESKTOP-DRHKE68/realtime/design_1_rst_ps7_0_50M_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps7_0_50M_0' (18#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-34544-DESKTOP-DRHKE68/realtime/design_1_rst_ps7_0_50M_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_rgb2dvi_0_0' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-6960-DESKTOP-DRHKE68/realtime/design_1_rgb2dvi_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_rgb2dvi_0_0' (17#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-6960-DESKTOP-DRHKE68/realtime/design_1_rgb2dvi_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps7_0_50M_0' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-6960-DESKTOP-DRHKE68/realtime/design_1_rst_ps7_0_50M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps7_0_50M_0' (18#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-6960-DESKTOP-DRHKE68/realtime/design_1_rst_ps7_0_50M_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:644]
 WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:644]
 WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'design_1_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:644]
 WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'design_1_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:644]
 WARNING: [Synth 8-7023] instance 'rst_ps7_0_50M' of module 'design_1_rst_ps7_0_50M_0' has 10 connections declared, but only 6 given [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:644]
-INFO: [Synth 8-6157] synthesizing module 'design_1_v_axi4s_vid_out_0_0' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-34544-DESKTOP-DRHKE68/realtime/design_1_v_axi4s_vid_out_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_v_axi4s_vid_out_0_0' (19#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-34544-DESKTOP-DRHKE68/realtime/design_1_v_axi4s_vid_out_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_v_axi4s_vid_out_0_0' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-6960-DESKTOP-DRHKE68/realtime/design_1_v_axi4s_vid_out_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_v_axi4s_vid_out_0_0' (19#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-6960-DESKTOP-DRHKE68/realtime/design_1_v_axi4s_vid_out_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'vid_vblank' of module 'design_1_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:651]
 WARNING: [Synth 8-7071] port 'vid_hblank' of module 'design_1_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:651]
 WARNING: [Synth 8-7071] port 'vid_field_id' of module 'design_1_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:651]
@@ -104,8 +104,8 @@ WARNING: [Synth 8-7071] port 'fifo_read_level' of module 'design_1_v_axi4s_vid_o
 WARNING: [Synth 8-7071] port 'status' of module 'design_1_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:651]
 WARNING: [Synth 8-7071] port 'sof_state_out' of module 'design_1_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:651]
 WARNING: [Synth 8-7023] instance 'v_axi4s_vid_out_0' of module 'design_1_v_axi4s_vid_out_0_0' has 32 connections declared, but only 22 given [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:651]
-INFO: [Synth 8-6157] synthesizing module 'design_1_v_tc_0_0' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-34544-DESKTOP-DRHKE68/realtime/design_1_v_tc_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_v_tc_0_0' (20#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-34544-DESKTOP-DRHKE68/realtime/design_1_v_tc_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_v_tc_0_0' [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-6960-DESKTOP-DRHKE68/realtime/design_1_v_tc_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_v_tc_0_0' (20#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/.Xil/Vivado-6960-DESKTOP-DRHKE68/realtime/design_1_v_tc_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'irq' of module 'design_1_v_tc_0_0' is unconnected for instance 'v_tc_0' [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:674]
 WARNING: [Synth 8-7071] port 'fsync_out' of module 'design_1_v_tc_0_0' is unconnected for instance 'v_tc_0' [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:674]
 WARNING: [Synth 8-7023] instance 'v_tc_0' of module 'design_1_v_tc_0_0' has 33 connections declared, but only 31 given [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:674]
@@ -116,18 +116,18 @@ INFO: [Synth 8-6155] done synthesizing module 'design_1_xlconstant_0_0' (22#1) [
 INFO: [Synth 8-6155] done synthesizing module 'design_1' (23#1) [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/synth/design_1.v:13]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (24#1) [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1282.793 ; gain = 0.000
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1283.543 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1282.793 ; gain = 0.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1283.543 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1282.793 ; gain = 0.000
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1283.543 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 1282.793 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 1283.543 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -157,22 +157,6 @@ Finished Parsing XDC File [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3
 Parsing XDC File [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1/design_1_auto_pc_1_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/s00_couplers/auto_pc'
 Finished Parsing XDC File [c:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1/design_1_auto_pc_1_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/s00_couplers/auto_pc'
 Parsing XDC File [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.srcs/constrs_1/new/pin_constraints.xdc]
-CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name " hdmi_output_clk_n "
- [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.srcs/constrs_1/new/pin_constraints.xdc:82]
-CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name " hdmi_output_clk_p "
- [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.srcs/constrs_1/new/pin_constraints.xdc:85]
-CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name " hdmi_output_data_n[0] "
- [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.srcs/constrs_1/new/pin_constraints.xdc:88]
-CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name " hdmi_output_data_p[0] "
- [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.srcs/constrs_1/new/pin_constraints.xdc:91]
-CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name " hdmi_output_data_n[1] "
- [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.srcs/constrs_1/new/pin_constraints.xdc:94]
-CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name " hdmi_output_data_p[1] "
- [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.srcs/constrs_1/new/pin_constraints.xdc:97]
-CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name " hdmi_output_data_n[2] "
- [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.srcs/constrs_1/new/pin_constraints.xdc:100]
-CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name " hdmi_output_data_p[2] "
- [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.srcs/constrs_1/new/pin_constraints.xdc:103]
 Finished Parsing XDC File [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.srcs/constrs_1/new/pin_constraints.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.srcs/constrs_1/new/pin_constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
@@ -180,20 +164,20 @@ Parsing XDC File [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_
 Finished Parsing XDC File [C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1282.793 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1283.543 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1282.793 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1283.543 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1282.793 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1283.543 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1282.793 ; gain = 0.000
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1283.543 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -491,10 +475,10 @@ Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/xlconstant_0. (constra
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/axi_mem_intercon/s00_couplers/auto_pc. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/axi_mem_intercon. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1282.793 ; gain = 0.000
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1283.543 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1282.793 ; gain = 0.000
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1283.543 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -516,25 +500,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1282.793 ; gain = 0.000
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1283.543 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1282.793 ; gain = 0.000
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1283.543 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1282.793 ; gain = 0.000
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1283.543 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1291.008 ; gain = 8.215
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1290.625 ; gain = 7.082
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -552,37 +536,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1297.770 ; gain = 14.977
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1297.457 ; gain = 13.914
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1297.770 ; gain = 14.977
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1297.457 ; gain = 13.914
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1297.770 ; gain = 14.977
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1297.457 ; gain = 13.914
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1297.770 ; gain = 14.977
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1297.457 ; gain = 13.914
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1297.770 ; gain = 14.977
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1297.457 ; gain = 13.914
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1297.770 ; gain = 14.977
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1297.457 ; gain = 13.914
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -625,25 +609,24 @@ Report Cell Usage:
 |14    |OBUF                             |     4|
 +------+---------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1297.770 ; gain = 14.977
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1297.457 ; gain = 13.914
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1297.770 ; gain = 14.977
-Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1297.770 ; gain = 14.977
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:19 . Memory (MB): peak = 1297.457 ; gain = 13.914
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1297.457 ; gain = 13.914
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1308.652 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1309.477 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1323.969 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1321.820 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 Synth Design complete, checksum: 8fa824e
 INFO: [Common 17-83] Releasing license: Synthesis
-66 Infos, 40 Warnings, 8 Critical Warnings and 0 Errors encountered.
+66 Infos, 40 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1323.969 ; gain = 41.176
-INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:29 . Memory (MB): peak = 1321.820 ; gain = 38.277
 INFO: [Common 17-1381] The checkpoint 'C:/LocalWorkspace/EE277workspace/Lab3/Lab2_2021v_lab3mod/Lab2_AXI_Implementation/Lab2_AXI_Implementation.runs/synth_1/design_1_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Nov  4 14:00:57 2024...
+INFO: [Common 17-206] Exiting Vivado at Mon Nov  4 22:21:00 2024...
