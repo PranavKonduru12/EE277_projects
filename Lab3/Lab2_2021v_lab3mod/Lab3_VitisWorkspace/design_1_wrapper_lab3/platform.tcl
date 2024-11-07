@@ -20,3 +20,6 @@ domain active {zynq_fsbl}
 domain active {standalone_ps7_cortexa9_0}
 platform generate -quick
 platform generate
+platform active {design_1_wrapper_lab3}
+platform config -updatehw {C:/LocalWorkspace/EE277workspace/Lab3/design_1_wrapper_lab3.xsa}
+platform generate -domains 

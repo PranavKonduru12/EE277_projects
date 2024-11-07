@@ -90,8 +90,10 @@ XAxiVdma vdma;
 u32 frameBuf[DISPLAY_NUM_FRAMES][MAX_FRAME] __attribute__((aligned(0x20))); // Frame buffers for video data
 u32 *pFrames[DISPLAY_NUM_FRAMES]; // Array of pointers to the frame buffers
 
-// Define switch variable here
-volatile unsigned int value; // switch
+// Define switch or GPIOs variable here
+volatile unsigned int sw_value; // switch
+volatile unsigned int btn_value; // btn
+volatile unsigned int led_value; //pass to LED
 
 int main() {
 	print("\nWelcome to the HDMI...\n");
@@ -140,9 +142,10 @@ int main() {
 	// ------------------------------ HDMI OUTPUT ------------------------------
 
 	int x, y;
-	// Define 2 frames
+	// Define 2 frames  trying out third frame
 	u32 *frame0 = (u32 *)dispCtrl.framePtr[0];
 	u32 *frame1 = (u32 *)dispCtrl.framePtr[1];
+	//u32 *frame2 = (u32 *)dispCtrl.framePtr[2];
 
 	// Get parameters from display controller struct
 	u32 stride = dispCtrl.stride / 4;
@@ -159,28 +162,55 @@ int main() {
 	{
 		for (x = 0; x < width; x++)
 		{
-			frame1[y*stride + x] = 0x91B2C7;
-			frame0[y*stride + x] = 0;
+			//frame1[y*stride + x] = 0x91B2C7;	//color
+			//frame1[y*stride + x] = 0xFFFFFF;
+			//frame2[y*stride + x] = 0x91B2C7;
+			frame1[y*stride + x] = 0xFF00FF;
+			//frame0[y*stride + x] = 0;
+			frame0[y*stride + x] = 0x91B2C7;
 		}
 	}
 	Xil_DCacheFlush();
 
 	while(1)
 	{
-		value = *(unsigned int*) 0x43c00000;
-		*(unsigned int*) 0x43c00004 = value;
+		sw_value = *(unsigned int*) 0x43c00000;
+		btn_value = *(unsigned int*) 0x43c00004;
+		led_value = sw_value | btn_value;
+		*(unsigned int*) 0x43c00008 = led_value;
 
 
-		if (value & 0x01)
+/*
+		if (led_value & 0x01)
 		{
-			/* Display WHITE */
+			//Display WHITE
 			DisplayChangeFrame(&dispCtrl, 1);
 		}
 		else
 		{
-			/* Display BLACK */
+			// Display BLACK
 			DisplayChangeFrame(&dispCtrl, 0);
 		}
+*/
+		if (sw_value & 0x01)
+		{
+			//Display WHITE
+			DisplayChangeFrame(&dispCtrl, 1);
+		}
+
+		else if (btn_value & 0x01)
+		{
+			DisplayChangeFrame(&dispCtrl, 0);
+		}
+/*
+		else
+		{
+			//Display BLACK
+			DisplayChangeFrame(&dispCtrl, 0);
+		}
+*/
+
+
 
 
 	}
