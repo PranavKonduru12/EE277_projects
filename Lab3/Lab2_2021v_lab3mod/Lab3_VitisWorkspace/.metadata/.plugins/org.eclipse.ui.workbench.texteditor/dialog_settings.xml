@@ -1,26 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="framePtr"/>
+		<item key="selection" value="DisplayInitialize"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="DisplayInitialize"/>
+			<item value="DisplayCtrl"/>
+			<item value="Display"/>
+			<item value="displayChange"/>
 			<item value="framePtr"/>
-			<item value="u32"/>
-			<item value="DISPLAY_NUM_FRAMES"/>
-			<item value="dispPtr-&gt;vdmaConfig.HoriSizeInput = (dispPtr-&gt;vMode.width)"/>
-			<item value="dispPtr"/>
-			<item value="DISPLAY_NUM"/>
+			<item value="DisplayChangeFrame"/>
+			<item value="frame1"/>
+			<item value="value"/>
+			<item value="frame1["/>
+			<item value="vdma"/>
+			<item value="displayIni"/>
+			<item value="VideoTiming"/>
+			<item value="Video"/>
+			<item value="VDMA"/>
+			<item value="dispPtr-&gt;vdmaConfig.HoriSizeInput"/>
 		</list>
 		<list key="replacehistory">
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="762"/>
-		<item key="DIALOG_Y_ORIGIN" value="216"/>
+		<item key="DIALOG_X_ORIGIN" value="782"/>
+		<item key="DIALOG_Y_ORIGIN" value="198"/>
 		<item key="DIALOG_WIDTH" value="284"/>
 		<item key="DIALOG_HEIGHT" value="391"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
