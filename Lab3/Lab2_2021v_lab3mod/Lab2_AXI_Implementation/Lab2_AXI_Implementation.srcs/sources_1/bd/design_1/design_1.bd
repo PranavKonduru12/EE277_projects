@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x95A10A8D51D10934",
+      "boundary_crc": "0x3778C8C0BEB5042A",
       "device": "xc7z010clg400-1",
       "gen_directory": "../../../../Lab2_AXI_Implementation.gen/sources_1/bd/design_1",
       "name": "design_1",
