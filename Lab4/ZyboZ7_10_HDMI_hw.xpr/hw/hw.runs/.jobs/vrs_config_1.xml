@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_axi_gpio_video_0_synth_1" LaunchDir="C:/LocalWorkspace/EE277workspace/Lab4/2021_1__1/ZyboZ7_10_HDMI_hw.xpr/hw/hw.runs/design_1_axi_gpio_video_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_dvi2rgb_0_0_synth_1" LaunchDir="C:/LocalWorkspace/EE277workspace/Lab4/2021_1__1/ZyboZ7_10_HDMI_hw.xpr/hw/hw.runs/design_1_dvi2rgb_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_proc_sys_reset_0_0_synth_1" LaunchDir="C:/LocalWorkspace/EE277workspace/Lab4/2021_1__1/ZyboZ7_10_HDMI_hw.xpr/hw/hw.runs/design_1_proc_sys_reset_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_proc_sys_reset_fclk0_0_synth_1" LaunchDir="C:/LocalWorkspace/EE277workspace/Lab4/2021_1__1/ZyboZ7_10_HDMI_hw.xpr/hw/hw.runs/design_1_proc_sys_reset_fclk0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_1_proc_sys_reset_0_0_synth_1"/>
+	</Run>
+	<Run Id="design_1_proc_sys_reset_fclk1_0_synth_1" LaunchDir="C:/LocalWorkspace/EE277workspace/Lab4/2021_1__1/ZyboZ7_10_HDMI_hw.xpr/hw/hw.runs/design_1_proc_sys_reset_fclk1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_processing_system7_0_0_synth_1" LaunchDir="C:/LocalWorkspace/EE277workspace/Lab4/2021_1__1/ZyboZ7_10_HDMI_hw.xpr/hw/hw.runs/design_1_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_rgb2dvi_1_0_synth_1" LaunchDir="C:/LocalWorkspace/EE277workspace/Lab4/2021_1__1/ZyboZ7_10_HDMI_hw.xpr/hw/hw.runs/design_1_rgb2dvi_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_pc_0_synth_1" LaunchDir="C:/LocalWorkspace/EE277workspace/Lab4/2021_1__1/ZyboZ7_10_HDMI_hw.xpr/hw/hw.runs/design_1_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_s00_regslice_0_synth_1" LaunchDir="C:/LocalWorkspace/EE277workspace/Lab4/2021_1__1/ZyboZ7_10_HDMI_hw.xpr/hw/hw.runs/design_1_s00_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_s01_regslice_0_synth_1" LaunchDir="C:/LocalWorkspace/EE277workspace/Lab4/2021_1__1/ZyboZ7_10_HDMI_hw.xpr/hw/hw.runs/design_1_s01_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_m00_regslice_0_synth_1" LaunchDir="C:/LocalWorkspace/EE277workspace/Lab4/2021_1__1/ZyboZ7_10_HDMI_hw.xpr/hw/hw.runs/design_1_m00_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_pc_1_synth_1" LaunchDir="C:/LocalWorkspace/EE277workspace/Lab4/2021_1__1/ZyboZ7_10_HDMI_hw.xpr/hw/hw.runs/design_1_auto_pc_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
