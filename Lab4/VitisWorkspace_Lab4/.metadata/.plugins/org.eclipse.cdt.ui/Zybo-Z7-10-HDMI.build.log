@@ -1,4 +1,4 @@
-14:02:15 **** Build of configuration Debug for project Zybo-Z7-10-HDMI ****
+17:03:32 **** Incremental Build of configuration Debug for project Zybo-Z7-10-HDMI ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -6,43 +6,43 @@ a9-linaro-pre-build-step
 make --no-print-directory main-build
 'Building file: ../src/video_capture/video_capture.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -DDEBUG -Wall -O0 -g3 -I"C:\LocalWorkspace\EE277workspace\Lab4\VitisWorkspace_Lab4\Zybo-Z7-10-HDMI\src" -IC:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include -c -fmessage-length=0 -MT"src/video_capture/video_capture.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/video_capture/video_capture.d" -MT"src/video_capture/video_capture.o" -o "src/video_capture/video_capture.o" "../src/video_capture/video_capture.c"
-In file included from C:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xaxivdma_i.h:51,
-                 from C:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xaxivdma.h:294,
+arm-none-eabi-gcc -DDEBUG -Wall -O0 -g3 -I"C:\LocalWorkspace\EE277workspace\Lab4\VitisWorkspace_Lab4\Zybo-Z7-10-HDMI\src" -IC:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include -c -fmessage-length=0 -MT"src/video_capture/video_capture.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/video_capture/video_capture.d" -MT"src/video_capture/video_capture.o" -o "src/video_capture/video_capture.o" "../src/video_capture/video_capture.c"
+In file included from C:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xaxivdma_i.h:51,
+                 from C:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xaxivdma.h:294,
                  from ../src/video_capture/video_capture.h:75,
                  from ../src/video_capture/video_capture.c:105:
-C:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xdebug.h:18:2: warning: #warning DEBUG is enabled [-Wcpp]
+C:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xdebug.h:18:2: warning: #warning DEBUG is enabled [-Wcpp]
    18 | #warning DEBUG is enabled
       |  ^~~~~~~
 'Finished building: ../src/video_capture/video_capture.c'
 ' '
 'Building file: ../src/timer_ps/timer_ps.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -DDEBUG -Wall -O0 -g3 -I"C:\LocalWorkspace\EE277workspace\Lab4\VitisWorkspace_Lab4\Zybo-Z7-10-HDMI\src" -IC:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include -c -fmessage-length=0 -MT"src/timer_ps/timer_ps.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/timer_ps/timer_ps.d" -MT"src/timer_ps/timer_ps.o" -o "src/timer_ps/timer_ps.o" "../src/timer_ps/timer_ps.c"
+arm-none-eabi-gcc -DDEBUG -Wall -O0 -g3 -I"C:\LocalWorkspace\EE277workspace\Lab4\VitisWorkspace_Lab4\Zybo-Z7-10-HDMI\src" -IC:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include -c -fmessage-length=0 -MT"src/timer_ps/timer_ps.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/timer_ps/timer_ps.d" -MT"src/timer_ps/timer_ps.o" -o "src/timer_ps/timer_ps.o" "../src/timer_ps/timer_ps.c"
 'Finished building: ../src/timer_ps/timer_ps.c'
 ' '
 'Building file: ../src/intc/intc.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -DDEBUG -Wall -O0 -g3 -I"C:\LocalWorkspace\EE277workspace\Lab4\VitisWorkspace_Lab4\Zybo-Z7-10-HDMI\src" -IC:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include -c -fmessage-length=0 -MT"src/intc/intc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/intc/intc.d" -MT"src/intc/intc.o" -o "src/intc/intc.o" "../src/intc/intc.c"
+arm-none-eabi-gcc -DDEBUG -Wall -O0 -g3 -I"C:\LocalWorkspace\EE277workspace\Lab4\VitisWorkspace_Lab4\Zybo-Z7-10-HDMI\src" -IC:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include -c -fmessage-length=0 -MT"src/intc/intc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/intc/intc.d" -MT"src/intc/intc.o" -o "src/intc/intc.o" "../src/intc/intc.c"
 'Finished building: ../src/intc/intc.c'
 ' '
 'Building file: ../src/dynclk/dynclk.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -DDEBUG -Wall -O0 -g3 -I"C:\LocalWorkspace\EE277workspace\Lab4\VitisWorkspace_Lab4\Zybo-Z7-10-HDMI\src" -IC:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include -c -fmessage-length=0 -MT"src/dynclk/dynclk.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/dynclk/dynclk.d" -MT"src/dynclk/dynclk.o" -o "src/dynclk/dynclk.o" "../src/dynclk/dynclk.c"
+arm-none-eabi-gcc -DDEBUG -Wall -O0 -g3 -I"C:\LocalWorkspace\EE277workspace\Lab4\VitisWorkspace_Lab4\Zybo-Z7-10-HDMI\src" -IC:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include -c -fmessage-length=0 -MT"src/dynclk/dynclk.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/dynclk/dynclk.d" -MT"src/dynclk/dynclk.o" -o "src/dynclk/dynclk.o" "../src/dynclk/dynclk.c"
 'Finished building: ../src/dynclk/dynclk.c'
 ' '
 'Building file: ../src/display_ctrl/display_ctrl.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -DDEBUG -Wall -O0 -g3 -I"C:\LocalWorkspace\EE277workspace\Lab4\VitisWorkspace_Lab4\Zybo-Z7-10-HDMI\src" -IC:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include -c -fmessage-length=0 -MT"src/display_ctrl/display_ctrl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/display_ctrl/display_ctrl.d" -MT"src/display_ctrl/display_ctrl.o" -o "src/display_ctrl/display_ctrl.o" "../src/display_ctrl/display_ctrl.c"
-In file included from C:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xaxivdma_i.h:51,
-                 from C:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xaxivdma.h:294,
+arm-none-eabi-gcc -DDEBUG -Wall -O0 -g3 -I"C:\LocalWorkspace\EE277workspace\Lab4\VitisWorkspace_Lab4\Zybo-Z7-10-HDMI\src" -IC:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include -c -fmessage-length=0 -MT"src/display_ctrl/display_ctrl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/display_ctrl/display_ctrl.d" -MT"src/display_ctrl/display_ctrl.o" -o "src/display_ctrl/display_ctrl.o" "../src/display_ctrl/display_ctrl.c"
+In file included from C:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xaxivdma_i.h:51,
+                 from C:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xaxivdma.h:294,
                  from ../src/display_ctrl/display_ctrl.h:56,
                  from ../src/display_ctrl/display_ctrl.c:63:
-C:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xdebug.h:18:2: warning: #warning DEBUG is enabled [-Wcpp]
+C:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xdebug.h:18:2: warning: #warning DEBUG is enabled [-Wcpp]
    18 | #warning DEBUG is enabled
       |  ^~~~~~~
-In file included from C:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xaxivdma_i.h:51,
-                 from C:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xaxivdma.h:294,
+In file included from C:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xaxivdma_i.h:51,
+                 from C:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xaxivdma.h:294,
                  from ../src/display_ctrl/display_ctrl.h:56,
                  from ../src/display_ctrl/display_ctrl.c:63:
 ../src/display_ctrl/display_ctrl.c: In function 'DisplayChangeFrame':
@@ -51,7 +51,7 @@ In file included from C:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.id
       |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~~
       |                                                                                                  |
       |                                                                                                  u32 {aka long unsigned int}
-C:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xdebug.h:54:73: note: in definition of macro 'xdbg_printf'
+C:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xdebug.h:54:73: note: in definition of macro 'xdbg_printf'
    54 | #define xdbg_printf(type, ...) (((type) & xdbg_current_types) ? printf (__VA_ARGS__) : 0)
       |                                                                         ^~~~~~~~~~~
 ../src/display_ctrl/display_ctrl.c:456:67: note: format string is defined here
@@ -60,8 +60,8 @@ C:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/exp
       |                                                                   |
       |                                                                   int
       |                                                                  %ld
-In file included from C:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xaxivdma_i.h:51,
-                 from C:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xaxivdma.h:294,
+In file included from C:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xaxivdma_i.h:51,
+                 from C:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xaxivdma.h:294,
                  from ../src/display_ctrl/display_ctrl.h:56,
                  from ../src/display_ctrl/display_ctrl.c:63:
 ../src/display_ctrl/display_ctrl.c:456:35: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
@@ -69,7 +69,7 @@ In file included from C:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.id
       |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                     ~~~~~~~~~~
       |                                                                                                              |
       |                                                                                                              u32 {aka long unsigned int}
-C:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xdebug.h:54:73: note: in definition of macro 'xdbg_printf'
+C:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xdebug.h:54:73: note: in definition of macro 'xdbg_printf'
    54 | #define xdbg_printf(type, ...) (((type) & xdbg_current_types) ? printf (__VA_ARGS__) : 0)
       |                                                                         ^~~~~~~~~~~
 ../src/display_ctrl/display_ctrl.c:456:83: note: format string is defined here
@@ -82,13 +82,13 @@ C:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/exp
 ' '
 'Building file: ../src/video_demo.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -DDEBUG -Wall -O0 -g3 -I"C:\LocalWorkspace\EE277workspace\Lab4\VitisWorkspace_Lab4\Zybo-Z7-10-HDMI\src" -IC:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include -c -fmessage-length=0 -MT"src/video_demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/video_demo.d" -MT"src/video_demo.o" -o "src/video_demo.o" "../src/video_demo.c"
-In file included from C:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xaxivdma_i.h:51,
-                 from C:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xaxivdma.h:294,
+arm-none-eabi-gcc -DDEBUG -Wall -O0 -g3 -I"C:\LocalWorkspace\EE277workspace\Lab4\VitisWorkspace_Lab4\Zybo-Z7-10-HDMI\src" -IC:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include -c -fmessage-length=0 -MT"src/video_demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/video_demo.d" -MT"src/video_demo.o" -o "src/video_demo.o" "../src/video_demo.c"
+In file included from C:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xaxivdma_i.h:51,
+                 from C:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xaxivdma.h:294,
                  from ../src/video_capture/video_capture.h:75,
                  from ../src/video_demo.h:32,
                  from ../src/video_demo.c:28:
-C:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xdebug.h:18:2: warning: #warning DEBUG is enabled [-Wcpp]
+C:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bspinclude/include/xdebug.h:18:2: warning: #warning DEBUG is enabled [-Wcpp]
    18 | #warning DEBUG is enabled
       |  ^~~~~~~
 ../src/video_demo.c: In function 'DemoGetInactiveFrame':
@@ -99,7 +99,7 @@ C:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/exp
 ' '
 'Building target: Zybo-Z7-10-HDMI.elf'
 'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bsplib/lib -o "Zybo-Z7-10-HDMI.elf"  ./src/video_capture/video_capture.o  ./src/timer_ps/timer_ps.o  ./src/intc/intc.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/video_demo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_ps7_cortexa9_0/bsplib/lib -o "Zybo-Z7-10-HDMI.elf"  ./src/video_capture/video_capture.o  ./src/timer_ps/timer_ps.o  ./src/intc/intc.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/video_demo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
 'Finished building target: Zybo-Z7-10-HDMI.elf'
 ' '
 'Invoking: ARM v7 Print Size'
@@ -109,5 +109,5 @@ arm-none-eabi-size Zybo-Z7-10-HDMI.elf  |tee "Zybo-Z7-10-HDMI.elf.size"
 'Finished building: Zybo-Z7-10-HDMI.elf.size'
 ' '
 
-14:02:17 Build Finished (took 1s.905ms)
+17:03:34 Build Finished (took 2s.774ms)
 

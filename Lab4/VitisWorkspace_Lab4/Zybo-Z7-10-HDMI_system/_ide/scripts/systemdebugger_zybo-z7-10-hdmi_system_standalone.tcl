@@ -14,9 +14,9 @@ targets -set -nocase -filter {name =~"APU*"}
 rst -system
 after 3000
 targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A98FA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A98FA-13722093-0"}
-fpga -file C:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/Zybo-Z7-10-HDMI/_ide/bitstream/design_1_wrapper.bit
+fpga -file C:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/Zybo-Z7-10-HDMI/_ide/bitstream/pmod_wrapper.bit
 targets -set -nocase -filter {name =~"APU*"}
-loadhw -hw C:/LocalWorkspace/EE277workspace/Lab4/ZyboZ7_10_HDMI_sw.ide/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+loadhw -hw C:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/design_1_wrapper/export/design_1_wrapper/hw/pmod_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
 configparams force-mem-access 1
 targets -set -nocase -filter {name =~"APU*"}
 source C:/LocalWorkspace/EE277workspace/Lab4/VitisWorkspace_Lab4/Zybo-Z7-10-HDMI/_ide/psinit/ps7_init.tcl
