@@ -1,0 +1,82 @@
+23:35:08 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\LocalWorkspace\EE277workspace\FinalProject\VitisWorkspace_pynq\temp_xsdb_launch_script.tcl
+23:35:08 INFO  : Platform repository initialization has completed.
+23:35:09 INFO  : Registering command handlers for Vitis TCF services
+23:35:11 INFO  : XSCT server has started successfully.
+23:35:11 INFO  : Successfully done setting XSCT server connection channel  
+23:35:11 INFO  : plnx-install-location is set to ''
+23:35:13 INFO  : Successfully done setting workspace for the tool. 
+23:35:13 INFO  : Successfully done query RDI_DATADIR 
+23:36:06 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+23:36:09 INFO  : [Import] Updating active build configuration of the system project 'Zybo-Z7-10-HDMI_system' to 'Debug' after the import.
+01:13:29 INFO  : Hardware specification for platform project 'design_1_wrapper' is updated.
+01:13:56 INFO  : Result from executing command 'getProjects': design_1_wrapper
+01:13:56 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|C:/LocalWorkspace/EE277workspace/FinalProject/VitisWorkspace_pynq/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+01:13:56 INFO  : Checking for BSP changes to sync application flags for project 'Zybo-Z7-10-HDMI'...
+01:14:01 INFO  : The hardware specification used by project 'Zybo-Z7-10-HDMI' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+01:14:01 INFO  : The file 'C:\LocalWorkspace\EE277workspace\FinalProject\VitisWorkspace_pynq\Zybo-Z7-10-HDMI\_ide\bitstream\design_1_wrapper.bit' stored in project is removed.
+01:14:01 INFO  : The updated bitstream files are copied from platform to folder 'C:\LocalWorkspace\EE277workspace\FinalProject\VitisWorkspace_pynq\Zybo-Z7-10-HDMI\_ide\bitstream' in project 'Zybo-Z7-10-HDMI'.
+01:14:01 INFO  : The file 'C:\LocalWorkspace\EE277workspace\FinalProject\VitisWorkspace_pynq\Zybo-Z7-10-HDMI\_ide\psinit\ps7_init.tcl' stored in project is removed.
+01:14:06 INFO  : The updated ps init files are copied from platform to folder 'C:\LocalWorkspace\EE277workspace\FinalProject\VitisWorkspace_pynq\Zybo-Z7-10-HDMI\_ide\psinit' in project 'Zybo-Z7-10-HDMI'.
+01:24:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:24:51 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+01:24:51 INFO  : 'jtag frequency' command is executed.
+01:24:51 INFO  : Context for 'APU' is selected.
+01:24:51 INFO  : System reset is completed.
+01:24:54 INFO  : 'after 3000' command is executed.
+01:24:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+01:24:56 INFO  : Device configured successfully with "C:/LocalWorkspace/EE277workspace/FinalProject/VitisWorkspace_pynq/Zybo-Z7-10-HDMI/_ide/bitstream/design_1_wrapper.bit"
+01:24:56 INFO  : Context for 'APU' is selected.
+01:24:57 INFO  : Hardware design and registers information is loaded from 'C:/LocalWorkspace/EE277workspace/FinalProject/VitisWorkspace_pynq/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+01:24:57 INFO  : 'configparams force-mem-access 1' command is executed.
+01:24:57 INFO  : Context for 'APU' is selected.
+01:24:57 INFO  : Sourcing of 'C:/LocalWorkspace/EE277workspace/FinalProject/VitisWorkspace_pynq/Zybo-Z7-10-HDMI/_ide/psinit/ps7_init.tcl' is done.
+01:24:57 INFO  : 'ps7_init' command is executed.
+01:24:57 INFO  : 'ps7_post_config' command is executed.
+01:24:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:24:59 ERROR : Memory write error at 0x100000. APB Memory access port is disabled
+01:24:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/LocalWorkspace/EE277workspace/FinalProject/VitisWorkspace_pynq/Zybo-Z7-10-HDMI/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/LocalWorkspace/EE277workspace/FinalProject/VitisWorkspace_pynq/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/LocalWorkspace/EE277workspace/FinalProject/VitisWorkspace_pynq/Zybo-Z7-10-HDMI/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/LocalWorkspace/EE277workspace/FinalProject/VitisWorkspace_pynq/Zybo-Z7-10-HDMI/Debug/Zybo-Z7-10-HDMI.elf
+----------------End of Script----------------
+
+01:24:59 ERROR : Memory write error at 0x100000. APB Memory access port is disabled
+01:25:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:25:08 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+01:25:08 INFO  : 'jtag frequency' command is executed.
+01:25:08 INFO  : Context for 'APU' is selected.
+01:25:08 ERROR : AP transaction error, DAP status 0xF0000021
+01:25:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+----------------End of Script----------------
+
+01:25:08 ERROR : AP transaction error, DAP status 0xF0000021
+01:25:15 INFO  : Checking for BSP changes to sync application flags for project 'Zybo-Z7-10-HDMI'...
+01:25:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:25:27 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+01:25:27 INFO  : 'jtag frequency' command is executed.
+01:25:27 INFO  : Context for 'APU' is selected.
+01:25:27 ERROR : AP transaction error, DAP status 0xF0000021
+01:25:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+----------------End of Script----------------
+
+01:25:27 ERROR : AP transaction error, DAP status 0xF0000021

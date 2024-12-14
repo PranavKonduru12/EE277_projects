@@ -2,8 +2,8 @@
 # Vivado v2021.1.1 (64-bit)
 # SW Build 3286242 on Wed Jul 28 13:10:47 MDT 2021
 # IP Build 3279568 on Wed Jul 28 16:48:48 MDT 2021
-# Start of session at: Thu Dec  5 13:35:42 2024
-# Process ID: 23372
+# Start of session at: Fri Dec 13 21:00:36 2024
+# Process ID: 30756
 # Current directory: C:/LocalWorkspace/EE277workspace/FinalProject/hw_pynq/hw.runs/design_1_v_vid_in_axi4s_0_0_synth_1
 # Command line: vivado.exe -log design_1_v_vid_in_axi4s_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_v_vid_in_axi4s_0_0.tcl
 # Log file: C:/LocalWorkspace/EE277workspace/FinalProject/hw_pynq/hw.runs/design_1_v_vid_in_axi4s_0_0_synth_1/design_1_v_vid_in_axi4s_0_0.vds

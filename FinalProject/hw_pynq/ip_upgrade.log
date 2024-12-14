@@ -1,7 +1,7 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:34:30 2024
+| Date         : Fri Dec 13 20:59:18 2024
 | Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
 | Device       : xc7z020clg400-1
@@ -22,7 +22,7 @@ SUCCESS in the conversion of design_1_xlconcat_0_0 (xilinx.com:ip:xlconcat:2.1 (
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:34:30 2024
+| Date         : Fri Dec 13 20:59:18 2024
 | Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
 | Device       : xc7z020clg400-1
@@ -43,7 +43,7 @@ SUCCESS in the conversion of design_1_v_vid_in_axi4s_0_0 (xilinx.com:ip:v_vid_in
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:34:30 2024
+| Date         : Fri Dec 13 20:59:18 2024
 | Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
 | Device       : xc7z020clg400-1
@@ -64,7 +64,7 @@ SUCCESS in the conversion of design_1_v_tc_out_0 (xilinx.com:ip:v_tc:6.2 (Rev. 2
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:34:30 2024
+| Date         : Fri Dec 13 20:59:18 2024
 | Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
 | Device       : xc7z020clg400-1
@@ -85,7 +85,7 @@ SUCCESS in the conversion of design_1_v_tc_in_0 (xilinx.com:ip:v_tc:6.2 (Rev. 2)
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:34:30 2024
+| Date         : Fri Dec 13 20:59:18 2024
 | Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
 | Device       : xc7z020clg400-1
@@ -106,7 +106,7 @@ SUCCESS in the conversion of design_1_v_axi4s_vid_out_0_0 (xilinx.com:ip:v_axi4s
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:34:30 2024
+| Date         : Fri Dec 13 20:59:18 2024
 | Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
 | Device       : xc7z020clg400-1
@@ -127,7 +127,7 @@ SUCCESS in the conversion of design_1_subset_converter_reset_0 (xilinx.com:ip:xl
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:34:30 2024
+| Date         : Fri Dec 13 20:59:18 2024
 | Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
 | Device       : xc7z020clg400-1
@@ -148,7 +148,7 @@ SUCCESS in the conversion of design_1_rgb2dvi_1_0 (digilentinc.com:ip:rgb2dvi:1.
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:34:30 2024
+| Date         : Fri Dec 13 20:59:18 2024
 | Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
 | Device       : xc7z020clg400-1
@@ -183,7 +183,7 @@ WARNING: upgrade cannot add parameter PCW_GP1_EN_MODIFIABLE_TXN with default val
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:34:30 2024
+| Date         : Fri Dec 13 20:59:18 2024
 | Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
 | Device       : xc7z020clg400-1
@@ -204,7 +204,7 @@ SUCCESS in the conversion of design_1_proc_sys_reset_fclk1_0 (xilinx.com:ip:proc
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:34:30 2024
+| Date         : Fri Dec 13 20:59:18 2024
 | Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
 | Device       : xc7z020clg400-1
@@ -225,7 +225,7 @@ SUCCESS in the conversion of design_1_proc_sys_reset_fclk0_0 (xilinx.com:ip:proc
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:34:30 2024
+| Date         : Fri Dec 13 20:59:18 2024
 | Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
 | Device       : xc7z020clg400-1
@@ -246,7 +246,7 @@ SUCCESS in the conversion of design_1_proc_sys_reset_0_0 (xilinx.com:ip:proc_sys
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:34:30 2024
+| Date         : Fri Dec 13 20:59:18 2024
 | Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
 | Device       : xc7z020clg400-1
@@ -267,7 +267,7 @@ SUCCESS in the conversion of design_1_dvi2rgb_0_0 (digilentinc.com:ip:dvi2rgb:2.
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:34:30 2024
+| Date         : Fri Dec 13 20:59:18 2024
 | Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
 | Device       : xc7z020clg400-1
@@ -288,7 +288,7 @@ SUCCESS in the conversion of design_1_axis_subset_converter_out_0 (xilinx.com:ip
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:34:30 2024
+| Date         : Fri Dec 13 20:59:18 2024
 | Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
 | Device       : xc7z020clg400-1
@@ -309,7 +309,7 @@ SUCCESS in the conversion of design_1_axis_subset_converter_in_0 (xilinx.com:ip:
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:34:30 2024
+| Date         : Fri Dec 13 20:59:18 2024
 | Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
 | Device       : xc7z020clg400-1
@@ -330,7 +330,7 @@ SUCCESS in the conversion of design_1_axi_vdma_0_0 (xilinx.com:ip:axi_vdma:6.3 (
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:34:30 2024
+| Date         : Fri Dec 13 20:59:18 2024
 | Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
 | Device       : xc7z020clg400-1
@@ -351,7 +351,7 @@ SUCCESS in the conversion of design_1_axi_interconnect_hp0_0 (xilinx.com:ip:axi_
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:34:30 2024
+| Date         : Fri Dec 13 20:59:18 2024
 | Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
 | Device       : xc7z020clg400-1
@@ -372,7 +372,7 @@ SUCCESS in the conversion of design_1_axi_interconnect_gp0_0 (xilinx.com:ip:axi_
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:34:30 2024
+| Date         : Fri Dec 13 20:59:18 2024
 | Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
 | Device       : xc7z020clg400-1
@@ -393,7 +393,7 @@ SUCCESS in the conversion of design_1_axi_gpio_video_0 (xilinx.com:ip:axi_gpio:2
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:34:30 2024
+| Date         : Fri Dec 13 20:59:18 2024
 | Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
 | Device       : xc7z020clg400-1
@@ -405,165 +405,4 @@ Upgrade Log for IP 'design_1_axi_dynclk_0_0'
 ----------
 
 SUCCESS in the conversion of design_1_axi_dynclk_0_0 (digilentinc.com:ip:axi_dynclk:1.1 (Rev. 16)) to Vivado generation flows.
-
-
-
-
-
-
-Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
---------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:05:14 2024
-| Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
-| Command      : upgrade_ip
-| Device       : xc7z010clg400-1
---------------------------------------------------------------------------------------
-
-Upgrade Log for IP 'design_1_rgb2dvi_1_0'
-
-1. Summary
-----------
-
-SUCCESS in the conversion of design_1_rgb2dvi_1_0 (digilentinc.com:ip:rgb2dvi:1.4 (Rev. 8)) to Vivado generation flows.
-
-
-
-
-
-
-Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
---------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:05:14 2024
-| Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
-| Command      : upgrade_ip
-| Device       : xc7z010clg400-1
---------------------------------------------------------------------------------------
-
-Upgrade Log for IP 'design_1_processing_system7_0_0'
-
-1. Summary
-----------
-
-SUCCESS in the conversion of design_1_processing_system7_0_0 (xilinx.com:ip:processing_system7:5.5 (Rev. 6)) to Vivado generation flows.
-
-2. Upgrade messages
--------------------
-
-WARNING: upgrade cannot add parameter PCW_TRACE_INTERNAL_WIDTH with default value 32 : a parameter called PCW_TRACE_INTERNAL_WIDTH already exists in processing_system7_v5_5
-WARNING: upgrade cannot add parameter PCW_USE_AXI_NONSECURE with default value 0 : a parameter called PCW_USE_AXI_NONSECURE already exists in processing_system7_v5_5
-WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
-WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
-WARNING: upgrade cannot add parameter PCW_GP0_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP0_NUM_WRITE_THREADS already exists in processing_system7_v5_5
-WARNING: upgrade cannot add parameter PCW_GP0_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP0_NUM_READ_THREADS already exists in processing_system7_v5_5
-WARNING: upgrade cannot add parameter PCW_GP1_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP1_NUM_WRITE_THREADS already exists in processing_system7_v5_5
-WARNING: upgrade cannot add parameter PCW_GP1_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP1_NUM_READ_THREADS already exists in processing_system7_v5_5
-WARNING: upgrade cannot add parameter PCW_GP0_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP0_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
-WARNING: upgrade cannot add parameter PCW_GP1_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP1_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
-
-
-
-
-
-
-Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
---------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:05:14 2024
-| Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
-| Command      : upgrade_ip
-| Device       : xc7z010clg400-1
---------------------------------------------------------------------------------------
-
-Upgrade Log for IP 'design_1_proc_sys_reset_fclk1_0'
-
-1. Summary
-----------
-
-SUCCESS in the conversion of design_1_proc_sys_reset_fclk1_0 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 13)) to Vivado generation flows.
-
-
-
-
-
-
-Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
---------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:05:14 2024
-| Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
-| Command      : upgrade_ip
-| Device       : xc7z010clg400-1
---------------------------------------------------------------------------------------
-
-Upgrade Log for IP 'design_1_proc_sys_reset_fclk0_0'
-
-1. Summary
-----------
-
-SUCCESS in the conversion of design_1_proc_sys_reset_fclk0_0 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 13)) to Vivado generation flows.
-
-
-
-
-
-
-Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
---------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:05:14 2024
-| Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
-| Command      : upgrade_ip
-| Device       : xc7z010clg400-1
---------------------------------------------------------------------------------------
-
-Upgrade Log for IP 'design_1_proc_sys_reset_0_0'
-
-1. Summary
-----------
-
-SUCCESS in the conversion of design_1_proc_sys_reset_0_0 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 13)) to Vivado generation flows.
-
-
-
-
-
-
-Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
---------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:05:14 2024
-| Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
-| Command      : upgrade_ip
-| Device       : xc7z010clg400-1
---------------------------------------------------------------------------------------
-
-Upgrade Log for IP 'design_1_dvi2rgb_0_0'
-
-1. Summary
-----------
-
-SUCCESS in the conversion of design_1_dvi2rgb_0_0 (digilentinc.com:ip:dvi2rgb:2.0 (Rev. 5)) to Vivado generation flows.
-
-
-
-
-
-
-Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
---------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2021.1.1 (win64) Build 3286242 Wed Jul 28 13:10:47 MDT 2021
-| Date         : Thu Dec  5 13:05:14 2024
-| Host         : DESKTOP-DRHKE68 running 64-bit major release  (build 9200)
-| Command      : upgrade_ip
-| Device       : xc7z010clg400-1
---------------------------------------------------------------------------------------
-
-Upgrade Log for IP 'design_1_axi_gpio_video_0'
-
-1. Summary
-----------
-
-SUCCESS in the conversion of design_1_axi_gpio_video_0 (xilinx.com:ip:axi_gpio:2.0 (Rev. 26)) to Vivado generation flows.
 

@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/WorkRaduV/Projects/Zybo-Z7/hw/proj/hw.runs/synth_1'
+HD_PWD='C:/LocalWorkspace/EE277workspace/FinalProject/hw_pynq/hw.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
