@@ -163,3 +163,60 @@ con
 
 14:05:45 INFO  : Launch script is exported to file 'C:\LocalWorkspace\EE277workspace\Lab2_2021v\VitisWorkspace\ledsystem_AXILite_system\_ide\scripts\systemdebugger_ledsystem_axilite_system_standalone.tcl'
 15:44:24 INFO  : Disconnected from the channel tcfchan#3.
+00:28:52 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\LocalWorkspace\EE277workspace\Lab2_2021v\VitisWorkspace\temp_xsdb_launch_script.tcl
+00:28:55 INFO  : XSCT server has started successfully.
+00:28:55 INFO  : plnx-install-location is set to ''
+00:28:55 INFO  : Successfully done setting XSCT server connection channel  
+00:28:55 INFO  : Successfully done setting workspace for the tool. 
+00:28:56 INFO  : Platform repository initialization has completed.
+00:28:57 INFO  : Registering command handlers for Vitis TCF services
+00:29:00 INFO  : Successfully done query RDI_DATADIR 
+00:29:15 INFO  : Checking for BSP changes to sync application flags for project 'ledsystem_AXILite'...
+00:29:19 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa is already opened
+
+00:29:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:29:30 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7A98FA' is selected.
+00:29:30 INFO  : 'jtag frequency' command is executed.
+00:29:30 INFO  : Context for 'APU' is selected.
+00:29:30 INFO  : System reset is completed.
+00:29:33 INFO  : 'after 3000' command is executed.
+00:29:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A98FA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A98FA-13722093-0"}' command is executed.
+00:29:35 INFO  : Device configured successfully with "C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/ledsystem_AXILite/_ide/bitstream/design_1_wrapper.bit"
+00:29:35 INFO  : Context for 'APU' is selected.
+00:29:35 INFO  : Hardware design and registers information is loaded from 'C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+00:29:35 INFO  : 'configparams force-mem-access 1' command is executed.
+00:29:35 INFO  : Context for 'APU' is selected.
+00:29:35 INFO  : Sourcing of 'C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/ledsystem_AXILite/_ide/psinit/ps7_init.tcl' is done.
+00:29:35 INFO  : 'ps7_init' command is executed.
+00:29:35 INFO  : 'ps7_post_config' command is executed.
+00:29:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:29:35 INFO  : The application 'C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/ledsystem_AXILite/Debug/ledsystem_AXILite.elf' is downloaded to processor 'ps7_cortexa9_0'.
+00:29:35 INFO  : 'configparams force-mem-access 0' command is executed.
+00:29:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7A98FA" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7A98FA-13722093-0"}
+fpga -file C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/ledsystem_AXILite/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/ledsystem_AXILite/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/LocalWorkspace/EE277workspace/Lab2_2021v/VitisWorkspace/ledsystem_AXILite/Debug/ledsystem_AXILite.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+00:29:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:29:36 INFO  : 'con' command is executed.
+00:29:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+00:29:36 INFO  : Launch script is exported to file 'C:\LocalWorkspace\EE277workspace\Lab2_2021v\VitisWorkspace\ledsystem_AXILite_system\_ide\scripts\debugger_ledsystem_axilite-default.tcl'
+00:31:14 INFO  : Disconnected from the channel tcfchan#2.

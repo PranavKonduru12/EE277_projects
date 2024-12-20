@@ -10,3 +10,8 @@ timestamp=[2024-11-03 12:10:43], mode=WORKBENCH_UI_INIT, duration=0:00:00.570, d
 timestamp=[2024-11-03 12:10:43], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.088, duration_ms=88, data={}
 timestamp=[2024-11-03 14:05:24], mode=BUILD, duration=0:00:00.546, duration_ms=546, data={name=ledsystem_AXILite, configuration=Debug, clean_build=false}
 timestamp=[2024-11-03 14:05:32], mode=BUILD, duration=0:00:07.153, duration_ms=7153, data={name=ledsystem_AXILite_system, configuration=Debug, clean_build=false}
+timestamp=[2024-12-18 00:28:55], mode=WORKBENCH_START, duration=0:00:09.045, duration_ms=9045, data={}
+timestamp=[2024-12-18 00:28:56], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.138, duration_ms=138, data={}
+timestamp=[2024-12-18 00:28:56], mode=WORKBENCH_UI_INIT, duration=0:00:00.926, duration_ms=926, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,ledsystem_AXILite,ledsystem_AXILite_system}
+timestamp=[2024-12-18 00:29:17], mode=BUILD, duration=0:00:00.508, duration_ms=508, data={name=ledsystem_AXILite, configuration=Debug, clean_build=false}
+timestamp=[2024-12-18 00:29:23], mode=BUILD, duration=0:00:04.864, duration_ms=4864, data={name=ledsystem_AXILite_system, configuration=Debug, clean_build=false}
