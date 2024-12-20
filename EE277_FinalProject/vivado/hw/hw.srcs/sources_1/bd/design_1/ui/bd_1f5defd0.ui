@@ -1,0 +1,96 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"4.45041",
+   "Default View_TopLeft":"884,79",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 9 -x 3360 -y 810 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 9 -x 3360 -y 840 -defaultsOSRD
+preplace port hdmi_in -pg 1 -lvl 0 -x -10 -y 1410 -defaultsOSRD
+preplace port hdmi_in_ddc -pg 1 -lvl 9 -x 3360 -y 1420 -defaultsOSRD
+preplace port hdmi_in_hpd -pg 1 -lvl 9 -x 3360 -y 680 -defaultsOSRD
+preplace port hdmi_out -pg 1 -lvl 9 -x 3360 -y 520 -defaultsOSRD
+preplace port hdmi_out_ddc -pg 1 -lvl 9 -x 3360 -y 1000 -defaultsOSRD
+preplace portBus sw -pg 1 -lvl 0 -x -10 -y 60 -defaultsOSRD
+preplace portBus btn -pg 1 -lvl 0 -x -10 -y 140 -defaultsOSRD
+preplace portBus led -pg 1 -lvl 9 -x 3360 -y -100 -defaultsOSRD
+preplace inst axi_dynclk_0 -pg 1 -lvl 5 -x 2040 -y 700 -defaultsOSRD
+preplace inst axi_interconnect_gp0 -pg 1 -lvl 4 -x 1610 -y 600 -defaultsOSRD
+preplace inst axi_interconnect_hp0 -pg 1 -lvl 2 -x 650 -y 710 -defaultsOSRD
+preplace inst axi_vdma_0 -pg 1 -lvl 5 -x 2040 -y 480 -defaultsOSRD
+preplace inst axis_subset_converter_in -pg 1 -lvl 4 -x 1610 -y 920 -defaultsOSRD
+preplace inst axis_subset_converter_out -pg 1 -lvl 6 -x 2490 -y 480 -defaultsOSRD
+preplace inst subset_converter_reset -pg 1 -lvl 3 -x 1130 -y 1360 -defaultsOSRD
+preplace inst v_axi4s_vid_out_0 -pg 1 -lvl 7 -x 2830 -y 560 -defaultsOSRD
+preplace inst v_tc_in -pg 1 -lvl 5 -x 2040 -y 160 -defaultsOSRD
+preplace inst v_tc_out -pg 1 -lvl 6 -x 2490 -y 1570 -defaultsOSRD
+preplace inst v_vid_in_axi4s_0 -pg 1 -lvl 3 -x 1130 -y 1190 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -x 650 -y 210 -defaultsOSRD
+preplace inst AUP_advanced_SoC_wit_0 -pg 1 -lvl 3 -x 1130 -y 190 -defaultsOSRD
+preplace inst axi_gpio_video -pg 1 -lvl 8 -x 3170 -y 720 -defaultsOSRD
+preplace inst dvi2rgb_0 -pg 1 -lvl 2 -x 650 -y 1440 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 2 -x 650 -y 460 -defaultsOSRD
+preplace inst proc_sys_reset_fclk0 -pg 1 -lvl 1 -x 190 -y 970 -defaultsOSRD
+preplace inst proc_sys_reset_fclk1 -pg 1 -lvl 1 -x 190 -y 760 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 3 -x 1130 -y 900 -defaultsOSRD
+preplace inst rgb2dvi_1 -pg 1 -lvl 8 -x 3170 -y 520 -defaultsOSRD
+preplace netloc ACLK_1 1 0 7 20 660 400 890 820 1040 1410 360 1850 350 2290 560 2680
+preplace netloc ACLK_2 1 0 8 20 870 380J 880 890 380 1400 370 1820 320 2300 720 NJ 720 NJ
+preplace netloc ARESETN_1 1 1 3 360 340 850J 350 1360J
+preplace netloc AUP_advanced_SoC_wit_0_led 1 3 6 1390J -70 NJ -70 NJ -70 NJ -70 NJ -70 3310
+preplace netloc Net 1 0 4 10 440 380 350 840J 360 1370
+preplace netloc axi_dynclk_0_LOCKED_O 1 5 3 2270 380 NJ 380 3010J
+preplace netloc axi_dynclk_0_PXL_CLK_5X_O 1 5 3 2280 390 NJ 390 3000J
+preplace netloc axi_dynclk_0_PXL_CLK_O 1 5 3 2320 600 2660 420 2990J
+preplace netloc axi_gpio_video_ip2intc_irpt 1 1 8 410 -60 NJ -60 NJ -60 NJ -60 NJ -60 NJ -60 NJ -60 3320
+preplace netloc axi_vdma_0_mm2s_introut 1 1 5 430 -30 NJ -30 NJ -30 NJ -30 2230
+preplace netloc axi_vdma_0_s2mm_introut 1 1 5 440 -20 NJ -20 NJ -20 NJ -20 2220
+preplace netloc btn_1 1 0 3 10J 110 NJ 110 870
+preplace netloc dvi2rgb_0_PixelClk 1 1 4 440 330 860 340 1370J 310 1790J
+preplace netloc dvi2rgb_0_aPixelClkLckd 1 1 8 450 360 830 370 1380J 350 1780J -10 NJ -10 NJ -10 NJ -10 3310
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 2 3 870 320 NJ 320 1810J
+preplace netloc proc_sys_reset_0_peripheral_reset 1 2 1 840 460n
+preplace netloc proc_sys_reset_fclk0_peripheral_aresetn 1 1 7 370 320 820J 390 1450 380 1830 330 2260 740 NJ 740 NJ
+preplace netloc proc_sys_reset_fclk1_interconnect_aresetn 1 1 1 420 660n
+preplace netloc proc_sys_reset_fclk1_peripheral_aresetn 1 1 1 440 700n
+preplace netloc processing_system7_0_FCLK_CLK2 1 1 3 450 1050 NJ 1050 1360
+preplace netloc subset_converter_reset_dout 1 3 3 1430 340 NJ 340 2320
+preplace netloc sw_1 1 0 3 NJ 60 NJ 60 880
+preplace netloc v_axi4s_vid_out_0_vtg_ce 1 5 3 2330 400 NJ 400 2980
+preplace netloc v_tc_0_irq 1 1 6 450 10 NJ 10 NJ 10 NJ 10 NJ 10 2650
+preplace netloc v_tc_in_irq 1 1 5 420 0 NJ 0 NJ 0 NJ 0 2210
+preplace netloc xlconcat_0_dout 1 2 1 880 210n
+preplace netloc S00_AXI_1 1 3 1 1440 440n
+preplace netloc axi_gpio_0_GPIO 1 8 1 3330J 680n
+preplace netloc axi_interconnect_0_M00_AXI 1 2 1 870 700n
+preplace netloc axi_interconnect_gp0_M00_AXI 1 4 1 1810 410n
+preplace netloc axi_interconnect_gp0_M01_AXI 1 4 1 1810 570n
+preplace netloc axi_interconnect_gp0_M02_AXI 1 4 1 1800 70n
+preplace netloc axi_interconnect_gp0_M03_AXI 1 4 2 N 610 2220J
+preplace netloc axi_interconnect_gp0_M04_AXI 1 4 4 1780 790 2310J 700 NJ 700 NJ
+preplace netloc axi_interconnect_gp0_M05_AXI 1 2 3 900 330 NJ 330 1770
+preplace netloc axi_interconnect_hp0_M01_AXI 1 2 1 850 720n
+preplace netloc axi_vdma_0_M_AXIS_MM2S 1 5 1 N 460
+preplace netloc axi_vdma_0_M_AXI_MM2S 1 1 5 390 -50 NJ -50 NJ -50 NJ -50 2250
+preplace netloc axi_vdma_0_M_AXI_S2MM 1 1 5 400 -40 NJ -40 NJ -40 NJ -40 2240
+preplace netloc axis_subset_converter_in_M_AXIS 1 4 1 1840 430n
+preplace netloc axis_subset_converter_out_M_AXIS 1 6 1 N 480
+preplace netloc dvi2rgb_0_DDC 1 2 7 NJ 1420 NJ 1420 NJ 1420 NJ 1420 NJ 1420 NJ 1420 NJ
+preplace netloc dvi2rgb_0_RGB 1 2 1 890 1120n
+preplace netloc hdmi_in_1 1 0 2 NJ 1410 NJ
+preplace netloc processing_system7_0_DDR 1 3 6 NJ 820 1850J 810 NJ 810 NJ 810 NJ 810 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 3 6 1420J 830 NJ 830 NJ 830 NJ 830 NJ 830 3330J
+preplace netloc processing_system7_0_IIC_0 1 3 6 1450J 840 NJ 840 NJ 840 NJ 840 NJ 840 3320J
+preplace netloc rgb2dvi_1_TMDS 1 8 1 NJ 520
+preplace netloc v_axi4s_vid_out_0_vid_io_out 1 7 1 N 490
+preplace netloc v_tc_0_vtiming_out 1 6 1 2670 500n
+preplace netloc v_vid_in_axi4s_0_video_out 1 3 1 1450 900n
+preplace netloc v_vid_in_axi4s_0_vtiming_out 1 3 2 1390J 300 1770
+levelinfo -pg 1 -10 190 650 1130 1610 2040 2490 2830 3170 3360
+pagesize -pg 1 -db -bbox -sgen -110 -130 3500 1730
+"
+}
+{
+   "da_axi4_cnt":"2"
+}
