@@ -1,0 +1,29 @@
+{
+  "version": "2022.1",
+  "applications": [],
+  "platforms": [
+    {
+      "name": "design_1_wrapper"
+    }
+  ],
+  "systems": [
+    {
+      "name": "Zybo-Z7-10-HDMI_system",
+      "platform": "D:/WorkRaduV/Projects/Zybo-Z7/sw/ws/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm",
+      "sysConfig": "design_1_wrapper",
+      "buildConfig": "Debug",
+      "applications": [
+        {
+          "name": "Zybo-Z7-10-HDMI",
+          "platform": "D:/WorkRaduV/Projects/Zybo-Z7/sw/ws/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm",
+          "platformPath": "D:\\WorkRaduV\\Projects\\Tests\\ReleaseDummyWS\\design_1_wrapper\\export\\design_1_wrapper",
+          "sysConfig": "design_1_wrapper",
+          "domain": "domain_ps7_cortexa9_0",
+          "system": "Zybo-Z7-10-HDMI_system"
+        }
+      ],
+      "platformPath": "D:\\WorkRaduV\\Projects\\Tests\\ReleaseDummyWS\\design_1_wrapper\\export\\design_1_wrapper"
+    }
+  ],
+  "others": []
+}

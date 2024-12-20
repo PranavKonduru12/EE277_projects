@@ -1,0 +1,10 @@
+21:35:15 **** Incremental Build of configuration Debug for project Zybo-Z7-10-HDMI_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 53919 C:/LocalWorkspace/EE277_local/EE277_Drive_Dec17_2024/EE277_FinalProject/Impl_1/Vitis/newWorkspace/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm domain_ps7_cortexa9_0 C:/LocalWorkspace/EE277_local/EE277_Drive_Dec17_2024/EE277_FinalProject/Impl_1/Vitis/newWorkspace/Zybo-Z7-10-HDMI_system/Debug/system.bif
+sdcard_gen --xpfm C:/LocalWorkspace/EE277_local/EE277_Drive_Dec17_2024/EE277_FinalProject/Impl_1/Vitis/newWorkspace/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm --sys_config design_1_wrapper --bif C:/LocalWorkspace/EE277_local/EE277_Drive_Dec17_2024/EE277_FinalProject/Impl_1/Vitis/newWorkspace/Zybo-Z7-10-HDMI_system/Debug/system.bif --bitstream C:/LocalWorkspace/EE277_local/EE277_Drive_Dec17_2024/EE277_FinalProject/Impl_1/Vitis/newWorkspace/Zybo-Z7-10-HDMI/_ide/bitstream/design_1_wrapper_sw.bit --elf C:/LocalWorkspace/EE277_local/EE277_Drive_Dec17_2024/EE277_FinalProject/Impl_1/Vitis/newWorkspace/Zybo-Z7-10-HDMI/Debug/Zybo-Z7-10-HDMI.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/LocalWorkspace/EE277_local/EE277_Drive_Dec17_2024/EE277_FinalProject/Impl_1/Vitis/newWorkspace/Zybo-Z7-10-HDMI/_ide/bitstream/design_1_wrapper_sw.bit
+Running D:/Vitis/2022.1/bin/bootgen  -image C:/LocalWorkspace/EE277_local/EE277_Drive_Dec17_2024/EE277_FinalProject/Impl_1/Vitis/newWorkspace/Zybo-Z7-10-HDMI_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+21:35:20 Build Finished (took 4s.766ms)
+
