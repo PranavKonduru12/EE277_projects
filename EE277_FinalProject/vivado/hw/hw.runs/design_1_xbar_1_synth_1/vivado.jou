@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Dec 17 16:30:03 2024
+# Process ID: 17804
+# Current directory: C:/Users/Pranav/LocalWorkspace/EE277/EE277_Final_Project/EE277_FinalProject_Dec16_2024/Impl_1/vivado/hw/hw.runs/design_1_xbar_1_synth_1
+# Command line: vivado.exe -log design_1_xbar_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_xbar_1.tcl
+# Log file: C:/Users/Pranav/LocalWorkspace/EE277/EE277_Final_Project/EE277_FinalProject_Dec16_2024/Impl_1/vivado/hw/hw.runs/design_1_xbar_1_synth_1/design_1_xbar_1.vds
+# Journal file: C:/Users/Pranav/LocalWorkspace/EE277/EE277_Final_Project/EE277_FinalProject_Dec16_2024/Impl_1/vivado/hw/hw.runs/design_1_xbar_1_synth_1\vivado.jou
+# Running On: DESKTOP-LFJP1V0, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 2, Host memory: 17038 MB
+#-----------------------------------------------------------
+source design_1_xbar_1.tcl -notrace
