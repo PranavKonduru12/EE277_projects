@@ -1,0 +1,20 @@
+
+*** Running vivado
+    with args -log design_1_proc_sys_reset_fclk0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_proc_sys_reset_fclk0_0.tcl
+
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source design_1_proc_sys_reset_fclk0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/LocalWorkspace/EE277_local/EE277_Drive_Dec17_2024/EE277_FinalProject/Impl_1/vivado/hw/hw.ipdefs/repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/LocalWorkspace/EE277_local/EE277_Drive_Dec17_2024/EE277_FinalProject/Impl_1/vivado/IPs/AUP_advanced_SoC_withBtn_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2022.1/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/LocalWorkspace/EE277_local/EE277_Drive_Dec17_2024/EE277_FinalProject/Impl_1/vivado/hw/hw.cache/ip 
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_proc_sys_reset_fclk0_0, cache-ID = 146ead877fa75387.
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 18 12:00:43 2024...
